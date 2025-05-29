@@ -1,0 +1,40 @@
+{
+    "subtitle": "What We Provide",
+    "title": "Exclusive Services",
+    "button": {
+        "label": "View All Services",
+        "link": "/services"
+    },
+    "items": [
+        {
+            "icon": "/img/serv-i-1.svg",
+            "title": "Construction",
+            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "link": "/services/service-1"
+        },
+        {
+            "icon": "/img/serv-i-2.svg",
+            "title": "Project Development",
+            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "link": "/services/service-2"
+        },
+        {
+            "icon": "/img/serv-i-3.svg",
+            "title": "Interior Design",
+            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "link": "/services/service-3"
+        },
+        {
+            "icon": "/img/serv-i-4.svg",
+            "title": "Welding & Laser",
+            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "link": "/services/service-3"
+        },
+        {
+            "icon": "/img/serv-i-5.svg",
+            "title": "Architecture",
+            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "link": "/services/service-3"
+        }
+    ]
+}

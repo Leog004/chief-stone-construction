@@ -1,0 +1,12 @@
+{
+    "title": "Ready to work together?",
+    "description": "You’re looking for a reliable construction partner or you’re looking to take the next step in your career, we want to hear from you!",
+    "image": {
+        "url": "/img/building-2.png",
+        "alt": "image"
+    },
+    "button": {
+        "link": "/contact",
+        "label": "Build a Project"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "subtitle": "Select a plan that suits",
+    "title": "Flexible Pricing Plans",
+    "items": [
+        {
+            "title": "Plan.it",
+            "description": "Manage your own project documents and collaborate.",
+            "price": "$20",
+            "price_after_1": "Per user / Month",
+            "price_after_2": "Billed Annually",
+            "list": [
+                "Dolorum sed doloribus",
+                "Consectetur adipisicing elit",
+                "Maxime libero"
+            ],
+            "button": {
+                "label": "Select Now",
+                "link": "/contact"
+            },
+            "image": "/img/pricing1.jpeg"
+        },
+        {
+            "title": "Build.it",
+            "description": "Manage your own project documents and collaborate.",
+            "price": "$60",
+            "price_after_1": "Per user / Month",
+            "price_after_2": "Billed Annually",
+            "list": [
+                "Dolorum sed doloribus",
+                "Consectetur adipisicing elit",
+                "Maxime libero"
+            ],
+            "button": {
+                "label": "Select Now",
+                "link": "/contact"
+            },
+            "image": "/img/pricing2.jpeg"
+        },
+        {
+            "title": "Build.it PRO",
+            "description": "Manage your own project documents and collaborate.",
+            "price": "$94",
+            "price_after_1": "Per user / Month",
+            "price_after_2": "Billed Annually",
+            "list": [
+                "Dolorum sed doloribus",
+                "Consectetur adipisicing elit",
+                "Maxime libero"
+            ],
+            "button": {
+                "label": "Select Now",
+                "link": "/contact"
+            },
+            "image": "/img/slide3.jpeg"
+        }
+    ]
+}

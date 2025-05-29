@@ -1,0 +1,30 @@
+{
+    "subtitle": "Testimonials",
+    "title":  "Client’s Reviews",
+    "image": {
+        "url": "/img/clients-images.png",
+        "alt": "Client Images"
+    },
+    "items": [
+        {
+            "name": "Marko Marlee",
+            "role": "Chairman, Building Corp",
+            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+        },
+        {
+            "name": "Christopher",
+            "role": "Social Worker",
+            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+        },
+        {
+            "name": "Donald Paul",
+            "role": "Constructor",
+            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+        },
+        {
+            "name": "Kevin Samuel",
+            "role": "Creative Head",
+            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+        }
+    ]
+}

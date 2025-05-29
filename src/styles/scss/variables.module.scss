@@ -1,0 +1,39 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* STYLE VARIABLES */
+$font-1: 'Epilogue', sans-serif;
+
+$accent-1: #ffee02;
+$accent-2: #47d562;
+
+$text-color: #444;
+$title-color: #111;
+$light-bg: #f7f6f2;
+$dark-bg: #0f0f0f;
+$accent-bg: #fffab3;
+
+$black: #000;
+$white: #fff;
+$grey: #999;
+
+$text-xs: 15px;
+$text-sm: 16px;
+$text-md: 20px;
+$text-lg: 50px;
+$text-xl: 60px;
+
+$titles-font-weight: 700;
+$text-font-weight: 400;
+$link-font-weight: 700;
+$btn-font-weight: 700;
+
+$site-background: $light-bg;
+
+$top-panel-height: 108px;
+
+$defaultTransition: 0.3s ease-in-out;
+
+:export {
+    accentColor: $accent-1;
+}

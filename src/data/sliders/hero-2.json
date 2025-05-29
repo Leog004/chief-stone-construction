@@ -1,0 +1,31 @@
+{
+    "items": [
+        {
+            "image": "/img/project1.jpeg",
+            "title": "NewBridge on the Dedham",
+            "text": "We will go through all the stages of construction.",
+            "button": {
+                "link": "/contact",
+                "label": "Get a Consultation"
+            }
+        },
+        {
+            "image": "/img/slide2.jpeg",
+            "title": "Reconstruction of The Building",
+            "text": "We will go through all the stages of construction.",
+            "button": {
+                "link": "/contact",
+                "label": "Get a Consultation"
+            }
+        },
+        {
+            "image": "/img/slide3.jpeg",
+            "title": "Old Factory Construction",
+            "text": "We will go through all the stages of construction.",
+            "button": {
+                "link": "/contact",
+                "label": "Get a Consultation"
+            }
+        }
+    ]
+}

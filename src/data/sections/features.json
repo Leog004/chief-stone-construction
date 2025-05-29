@@ -1,0 +1,31 @@
+{
+    "subtitle": "Core Features",
+    "title": "What Makes Us Differnt",
+    "yt_video_id": "uemObN8_dcw",
+    "image": {
+        "url": "/img/core-feature.jpeg",
+        "alt": "image"
+    },
+    "items": [
+        {
+            "num": "01.",
+            "title": "Early Engagement",
+            "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+        },
+        {
+            "num": "02.",
+            "title": "Integrity",
+            "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+        },
+        {
+            "num": "03.",
+            "title": "Solutions",
+            "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+        },
+        {
+            "num": "04.",
+            "title": "Innovation",
+            "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "subtitle": "Focused and Future Ready",
+    "title": "Right People to Deliver Unique Construction Solutions",
+    "image": {
+        "url": "/img/core.jpeg",
+        "alt": "Our Goal"
+    },
+    "image_text_rotate": {
+        "url": "/img/our-goal-mov-text.png",
+        "alt": "Our Goal Mov Text"
+    },
+    "items": [
+        {
+            "title": "Our Goal is to Be Better",
+            "text": "<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>"
+        },
+        {
+            "title": "Business Bottom Line",
+            "text": "<ul><li>Geographical diversity, project complexity</li><li>Whether building on land or over water</li><li>Construction companies respond to the unique needs</li></ul>"
+        }
+    ]
+}

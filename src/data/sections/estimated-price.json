@@ -1,0 +1,9 @@
+{
+    "subtitle": "House Construction Cost Calculator",
+    "title": "Estimatied Price",
+    "description": "To get the cost estimation of your house please select from the following:",
+    "image": {
+        "url": "/img/est-img.png",
+        "alt": "image"
+    }
+}

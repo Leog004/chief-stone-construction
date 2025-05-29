@@ -1,0 +1,142 @@
+{
+    "subtitle": "Our Skilled Team",
+    "title": "Meet The Expert Team",
+    "items": [
+        {
+            "image": "/img/team-3.png",
+            "name": "Henry Taylor",
+            "role": "Head Railway Construction",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-1.png",
+            "name": "Edward Jeffrey",
+            "role": "Finance Department",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-2.png",
+            "name": "Nicholas Larry",
+            "role": "Railway Manager",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-3.png",
+            "name": "Stephen Jones",
+            "role": "Creative Worker",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-1.png",
+            "name": "Eric Scot",
+            "role": "Cheif Railway Construction",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-2.png",
+            "name": "Alexander Sorloth",
+            "role": "Head Railway Construction",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-3.png",
+            "name": "Jose Tyler",
+            "role": "HR Department",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        },
+        {
+            "image": "/img/team-2.png",
+            "name": "Henry Vincent",
+            "role": "Construction Manager",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
+        }
+    ]
+}

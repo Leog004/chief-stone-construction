@@ -1,0 +1,10 @@
+{
+    "subtitle": "News & Articles",
+    "title": "Latest News",
+    "description": "Our people are dedicated to finding solutions to every challenge. That spirit makes for some great stories.",
+    "button": {
+        "label": "View All News",
+        "link": "/blog"
+    },
+    "numOfItems": 2
+}

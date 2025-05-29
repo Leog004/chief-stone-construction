@@ -1,0 +1,28 @@
+{
+    "subtitle": "What are we proud of",
+    "title": "Company Awwards and Certificates",
+    "image": {
+        "url": "/img/company-awward.jpeg",
+        "alt": "image"
+    },
+    "badge": {
+        "label": "Focused on Quality",
+        "value": "100%"
+    },
+    "subheading": "We Won Many Factory Awards",
+    "heading": "Got Many Ceritificates Since 2001-2016",
+    "items": [
+        {
+            "image": "/img/c-img.png",
+            "subtitle": "2001 Award",
+            "title": "Society of Experiential Global Design Awards",
+            "text": "The SEGD Global Design Awards represents the best in experiential graphic design and covers a variety of topics."
+        },
+        {
+            "image": "/img/c-img.png",
+            "subtitle": "2006 Award",
+            "title": "Society of Experiential Global Design Awards",
+            "text": "The SEGD Global Design Awards represents the best in experiential graphic design and covers a variety of topics."
+        }
+    ]
+}

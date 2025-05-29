@@ -1,0 +1,213 @@
+{
+    "settings": {
+        "siteName": "Builty",
+        "preloader": {
+            "image": "/img/Builty-Logo-Black-Home.svg",
+            "alt": "logo"
+        },
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "image": "/img/Builty-Logo.svg",
+            "alt": "logo"
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": [
+                    {
+                        "label": "Home 1",
+                        "link": "/",
+                        "children": 0
+                    },
+                    {
+                        "label": "Home 2",
+                        "link": "/index-2",
+                        "children": 0
+                    },
+                    {
+                        "label": "Home 3",
+                        "link": "/index-3",
+                        "children": 0
+                    }
+                ]
+            },
+            {
+                "label": "About",
+                "link": "/about",
+                "children": [
+                    {
+                        "label": "About Company",
+                        "link": "/about",
+                        "children": 0
+                    },
+                    {
+                        "label": "Core Values",
+                        "link": "/core-values",
+                        "children": 0
+                    },
+                    {
+                        "label": "Leadership",
+                        "link": "/leadership",
+                        "children": 0
+                    },
+                    {
+                        "label": "History",
+                        "link": "/history",
+                        "children": 0
+                    }
+                ]
+            },
+            {
+                "label": "Shop",
+                "link": "/product-grid",
+                "children": [
+                    {
+                        "label": "Products",
+                        "link": "/product-grid",
+                        "children": [
+                            {
+                                "label": "Product List",
+                                "link": "/product-list"
+                            },
+                            {
+                                "label": "Product Grid",
+                                "link": "/product-grid"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Product Detail",
+                        "link": "/product-detail",
+                        "children": 0
+                    },
+                    {
+                        "label": "Cart",
+                        "link": "/cart",
+                        "children": 0
+                    },
+                    {
+                        "label": "Checkout",
+                        "link": "/checkout",
+                        "children": 0
+                    },
+                    {
+                        "label": "Login & Register",
+                        "link": "/login",
+                        "children": 0
+                    }
+                ]
+            },
+            {
+                "label": "Pages",
+                "link": "/projects",
+                "children": [
+                    {
+                        "label": "Projects",
+                        "link": "/projects",
+                        "children": [
+                            {
+                                "label": "Projects List",
+                                "link": "/projects"
+                            },
+                            {
+                                "label": "Projects Grid",
+                                "link": "/projects-2"
+                            },
+                            {
+                                "label": "Project Detail",
+                                "link": "/projects/project-01"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Services",
+                        "link": "/services",
+                        "children": [
+                            {
+                                "label": "Services List",
+                                "link": "/services"
+                            },
+                            {
+                                "label": "Service Detail",
+                                "link": "/services/service-1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Team",
+                        "link": "/team",
+                        "children": [
+                            {
+                                "label": "Team List",
+                                "link": "/team"
+                            },
+                            {
+                                "label": "Team Detail",
+                                "link": "/team/team-1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Blog",
+                "link": "/blog",
+                "children": [
+                    {
+                        "label": "Blog Grid",
+                        "link": "/blog",
+                        "children": 0
+                    },
+                    {
+                        "label": "Blog List",
+                        "link": "/blog-2",
+                        "children": 0
+                    },
+                    {
+                        "label": "Blog Detail",
+                        "link": "/blog/play-to-your-strength-and-supercharge-your-business",
+                        "children": 0
+                    }
+                ]
+            },
+            {
+                "label": "Contact",
+                "link": "/contact",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "/img/Builty-Logo.svg",
+            "alt": "logo"
+        },
+        "info": {
+            "address": "901 N Pitt Str., Suite 170, VA 22314, USA",
+            "tel": "(+180) 50 318 47 07",
+            "email": "username@domain.com"
+        },
+        "copy": "Builty Construction Company <i class='fa-solid fa-heart'></i> © 2023 <a href='https://themeforest.net/user/bslthemes/portfolio'>bslthemes</a> All rights reserved"
+    },
+    "social": [
+        {
+            "link": "https://facebook.com",
+            "title": "Facebook"
+        },
+        {
+            "link": "https://twitter.com",
+            "title": "Twitter"
+        },
+        {
+            "link": "https://linkedin.com",
+            "title": "Linkedin"
+        }
+    ]
+}

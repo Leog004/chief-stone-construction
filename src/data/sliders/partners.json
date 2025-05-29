@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "image": "/img/client-1.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-2.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-3.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-4.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-5.png",
+            "alt": "img"
+        }
+    ]
+}

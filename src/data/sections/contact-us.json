@@ -1,0 +1,46 @@
+{
+    "subtitle": "Contact Us",
+    "title": "Get in Touch With Us. We are Happy Help.",
+    "items": [
+        {
+            "image": "/img/c-m-1.jpg",
+            "name": "Guterrez Cruz",
+            "role": "Sales Manager",
+            "email": "name@domain.com",
+            "tel": "+1 23 145 789",
+            "address": "901 N Pitt Str, Suite 170, VA 22314, USA"
+        },
+        {
+            "image": "/img/c-m-2.jpg",
+            "name": "John Smith",
+            "role": "Sales Manager",
+            "email": "name@domain.com",
+            "tel": "+1 23 145 789",
+            "address": "901 N Pitt Str, Suite 170, VA 22314, USA"
+        },
+        {
+            "image": "/img/c-m-3.jpg",
+            "name": "Willimes Markor",
+            "role": "Sales Manager",
+            "email": "name@domain.com",
+            "tel": "+1 23 145 789",
+            "address": "901 N Pitt Str, Suite 170, VA 22314, USA"
+        },
+        {
+            "image": "/img/c-m-4.jpg",
+            "name": "Jessica Loren",
+            "role": "Sales Manager",
+            "email": "name@domain.com",
+            "tel": "+1 23 145 789",
+            "address": "901 N Pitt Str, Suite 170, VA 22314, USA"
+        },
+        {
+            "image": "/img/c-m-5.jpg",
+            "name": "Clark Thomas",
+            "role": "Sales Manager",
+            "email": "name@domain.com",
+            "tel": "+1 23 145 789",
+            "address": "901 N Pitt Str, Suite 170, VA 22314, USA"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Starts Here",
+    "subtitle": "Your Renovation",
+    "description": "Each of our completed projects comes with a 2-5 year warranty, giving you peace of mind knowing that your home’s renovations are in good hands.",
+    "link": "/contact",
+    "bg_image": "/img/renovation.jpeg",
+    "image_circle_text": {
+        "url": "/img/circle-text.png",
+        "alt": "Circle Text"
+    }
+}

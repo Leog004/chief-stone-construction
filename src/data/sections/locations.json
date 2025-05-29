@@ -1,0 +1,93 @@
+{
+    "subtitle": "Our Locations",
+    "title": "Where we work",
+    "description": "No matter where or what you want to build, we mobilize the right resources and experts to drive value and realize your project goals. From coast to coast in communities across the country, if you're ready, we're ready.",
+    "numbers": [
+        {
+            "value": "100%",
+            "label": "Employee Owned"
+        },
+        {
+            "value": "700",
+            "label": "Active Projects"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Canada",
+            "map": {
+                "url": "/img/map-2.png",
+                "alt": "map"
+            },
+            "locations": [
+                {
+                    "title": "Location 1",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                },
+                {
+                    "title": "Location 2",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                }
+            ]
+        },
+        {
+            "name": "United States",
+            "map": {
+                "url": "/img/map-2.png",
+                "alt": "map"
+            },
+            "locations": [
+                {
+                    "title": "Location 1",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                },
+                {
+                    "title": "Location 2",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                }
+            ]
+        },
+        {
+            "name": "Caribbean",
+            "map": {
+                "url": "/img/map-2.png",
+                "alt": "map"
+            },
+            "locations": [
+                {
+                    "title": "Location 1",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                },
+                {
+                    "title": "Location 2",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                }
+            ]
+        },
+        {
+            "name": "Australia",
+            "map": {
+                "url": "/img/map-2.png",
+                "alt": "map"
+            },
+            "locations": [
+                {
+                    "title": "Location 1",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                },
+                {
+                    "title": "Location 2",
+                    "image": "/img/loc.jpg",
+                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                }
+            ]
+        }
+    ]
+}

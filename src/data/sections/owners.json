@@ -1,0 +1,44 @@
+{
+    "subtitle": "OUR OWNERS",
+    "title": "Invested in Your Success",
+    "items": [
+        {
+            "image": "/img/team-1.jpg",
+            "name": "Henry Taylor",
+            "role": "President, Company CEO",
+            "tel": "(+120) 50 318 47 07",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ],
+            "link": "/team/team-1"
+        },
+        {
+            "image": "/img/team-2.jpg",
+            "name": "Edward Jeffrey",
+            "role": "Vice President, Civil Infrastructure",
+            "tel": "(+180) 50 318 47 07",
+            "social": [
+                {
+                    "link": "https://facebook.com/",
+                    "icon": "fa-brands fa-facebook-f",
+                    "title": "Facebook"
+                },
+                {
+                    "link": "https://twitter.com/",
+                    "icon": "fa-brands fa-twitter",
+                    "title": "Twitter"
+                }
+            ],
+            "link": "/team/team-2"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "subtitle": "Sell your Products",
+    "title": "Industry Products",
+    "items": [
+        {
+            "image": "/img/product1.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        },
+        {
+            "image": "/img/product2.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        },
+        {
+            "image": "/img/product4.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        },
+        {
+            "image": "/img/product1.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        },
+        {
+            "image": "/img/product2.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        },
+        {
+            "image": "/img/product4.jpeg",
+            "rating": "5.0",
+            "title": "Fosroc Galvafroid – 400ml",
+            "price": "<span>$18.60</span> - <span>$58.50</span>"
+        }
+    ]
+}

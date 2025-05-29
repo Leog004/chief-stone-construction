@@ -1,0 +1,9 @@
+{
+    "subtitle": "Let us Help Guide",
+    "title": "Recent Articles",
+    "button": {
+        "label": "View All Posts",
+        "link": "/blog"
+    },
+    "numOfItems": 3
+}
