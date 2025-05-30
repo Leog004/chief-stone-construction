@@ -1,12 +1,12 @@
 {
-  "index-3.jsx -> @components/sliders/Products": {
-    "id": "index-3.jsx -> @components/sliders/Products",
+  "index.jsx -> @components/sliders/Products": {
+    "id": "index.jsx -> @components/sliders/Products",
     "files": [
       "static/chunks/src_components_sliders_Products_jsx.js"
     ]
   },
-  "index-3.jsx -> @components/sliders/Projects2": {
-    "id": "index-3.jsx -> @components/sliders/Projects2",
+  "index.jsx -> @components/sliders/Projects2": {
+    "id": "index.jsx -> @components/sliders/Projects2",
     "files": [
       "static/chunks/src_components_sliders_Projects2_jsx.js"
     ]

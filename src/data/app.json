@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Builty",
+        "siteName": "Chief Stone Construction",
         "preloader": {
             "image": "/img/Builty-Logo-Black-Home.svg",
             "alt": "logo"
@@ -20,23 +20,7 @@
             {
                 "label": "Home",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Home 1",
-                        "link": "/",
-                        "children": 0
-                    },
-                    {
-                        "label": "Home 2",
-                        "link": "/index-2",
-                        "children": 0
-                    },
-                    {
-                        "label": "Home 3",
-                        "link": "/index-3",
-                        "children": 0
-                    }
-                ]
+                "children": []
             },
             {
                 "label": "About",
