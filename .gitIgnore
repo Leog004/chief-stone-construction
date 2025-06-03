@@ -45,3 +45,6 @@ ehthumbs.db
 
 # Optional: System file
 Desktop.ini
+
+# ignore .next.js build cache
+.next/

@@ -1,10 +1,13 @@
-import Data from '@data/sections/about-3.json';
-import Link from 'next/link';
+import Data from "@data/sections/about-3.json";
+import Link from "next/link";
 
 const About3Section = () => {
   return (
     <section className="gap history-style-one">
       <div className="heading heading-style-3">
+        <figure>
+          <img src="/img/image2vector-3.svg" alt="heading-icon" />
+        </figure>
         <h2 dangerouslySetInnerHTML={{ __html: Data.title }} />
         <p dangerouslySetInnerHTML={{ __html: Data.description }} />
       </div>
