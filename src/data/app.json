@@ -48,46 +48,7 @@
           }
         ]
       },
-      {
-        "label": "Shop",
-        "link": "/product-grid",
-        "children": [
-          {
-            "label": "Products",
-            "link": "/product-grid",
-            "children": [
-              {
-                "label": "Product List",
-                "link": "/product-list"
-              },
-              {
-                "label": "Product Grid",
-                "link": "/product-grid"
-              }
-            ]
-          },
-          {
-            "label": "Product Detail",
-            "link": "/product-detail",
-            "children": 0
-          },
-          {
-            "label": "Cart",
-            "link": "/cart",
-            "children": 0
-          },
-          {
-            "label": "Checkout",
-            "link": "/checkout",
-            "children": 0
-          },
-          {
-            "label": "Login & Register",
-            "link": "/login",
-            "children": 0
-          }
-        ]
-      },
+
       {
         "label": "Pages",
         "link": "/projects",
