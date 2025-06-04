@@ -1,43 +1,39 @@
-import React from "react";
-import Layouts from "@layouts/Layouts";
-import dynamic from "next/dynamic";
+import React from 'react';
+import Layouts from '@layouts/Layouts';
+import dynamic from 'next/dynamic';
 
-import { getSortedPostsData } from "@library/posts";
-import { getSortedProjectsData } from "@library/projects";
+import { getSortedPostsData } from '@library/posts';
+import { getSortedProjectsData } from '@library/projects';
 
-import AboutSection from "@components/sections/About";
-import ServicesSection from "@components/sections/Services";
-import CountersSection from "@components/sections/Counters";
-import FeaturesSection from "@components/sections/Features";
-import RenovationSection from "@components/sections/Renovation";
-import LatestPostsSection from "@components/sections/LatestPosts";
+import Hero3Section from '@components/sections/Hero3';
+import About3Section from '@components/sections/About3';
+import CallToActionSection from '@components/sections/CallToAction';
+import OwnersSection from '@components/sections/Owners';
+import LocationsSection from '@components/sections/Locations';
+import ContactFormSection from '@components/sections/ContactForm';
+import LatestPosts2Section from '@components/sections/LatestPosts2';
 
-const HeroSlider = dynamic( () => import("@components/sliders/Hero"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { ssr: false } );
-const TeamSlider = dynamic( () => import("@components/sliders/Team"), { ssr: false } );
+const ProductsSlider = dynamic(() => import('@components/sliders/Products'), {
+  ssr: false,
+});
+const Projects2Slider = dynamic(() => import('@components/sliders/Projects2'), {
+  ssr: false,
+});
 
-const Home1 = (props) => {
+const Home3 = (props) => {
   return (
-    <Layouts transparent>
+    <Layouts>
       <>
-        <HeroSlider />
-        <ServicesSection />
-        <AboutSection />
-        <CountersSection />
-        <ProjectsSlider projects={props.projects} />
-        <TeamSlider />
-        <FeaturesSection />
-        <PartnersSlider />
-        <RenovationSection />
-        <TestimonialSlider />
-        <LatestPostsSection posts={props.posts} />
+        <Hero3Section />
+        <About3Section />
+        <CallToActionSection />
+        <Projects2Slider projects={props.projects} />
+        <ContactFormSection />
       </>
     </Layouts>
   );
 };
-export default Home1;
+export default Home3;
 
 export async function getStaticProps() {
   const allPosts = getSortedPostsData();
@@ -46,7 +42,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: allPosts,
-      projects: allProjects
-    }
-  }
+      projects: allProjects,
+    },
+  };
 }
