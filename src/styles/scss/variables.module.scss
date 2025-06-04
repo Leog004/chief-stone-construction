@@ -4,7 +4,7 @@
 /* STYLE VARIABLES */
 $font-1: 'Epilogue', sans-serif;
 
-$accent-1: #ffee02;
+$accent-1: #ba8558;
 $accent-2: #47d562;
 
 $text-color: #444;
@@ -13,7 +13,7 @@ $light-bg: #f7f6f2;
 $dark-bg: #0f0f0f;
 $accent-bg: #fffab3;
 
-$black: #000;
+$black: #191919;
 $white: #fff;
 $grey: #999;
 
@@ -35,5 +35,5 @@ $top-panel-height: 108px;
 $defaultTransition: 0.3s ease-in-out;
 
 :export {
-    accentColor: $accent-1;
+  accentColor: $accent-1;
 }
