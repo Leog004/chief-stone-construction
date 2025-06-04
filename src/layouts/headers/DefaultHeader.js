@@ -165,8 +165,8 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         }
                         {contactButton != 1 &&
-                        <a href="tel:+956-283-4035" className="theme-btn">
-                          +956-283-4035
+                        <a href="tel:+405-388-1577" className="theme-btn">
+                          +405-388-1577
                           <i>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="40" height="62" viewBox="0 0 40 62">
                               <defs>
@@ -233,16 +233,16 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           </div>
 
           <div className="mobile-nav desktop-menu">
-            <h2>We Build Building and Great Homes.</h2>
-            <p className="des">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+            <h2>From Foundations to Finishing Touches, We Build With Purpose.</h2>
+            <p className="des">No matter the size of the project, we bring dependable craftsmanship, long-term guarantees, and forward-thinking solutions to every job.</p>
             
             <figure>
               <img src="/img/project1.jpeg" alt="image" />
             </figure>
 
             <h3>Get in touch</h3>
-            <p className="num">(+380) 50 318 47 07</p>
-            <p className="adrs">65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA</p>
+            <p className="num">405-388-1577</p>
+            <p className="adrs">1601 Whispering Creek Dr, Edmond, OK 73013</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (
