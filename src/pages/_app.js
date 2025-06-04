@@ -16,6 +16,10 @@ function MyApp({ Component, pageProps }) {
           {/* seo begin */}
           <title>{appData.settings.siteName}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="description" content={appData.settings.siteDescription} />
+          <meta name="keywords" content={appData.settings.siteKeywords} />
+          <meta name="author" content={appData.settings.siteAuthor} />
+          <link rel="canonical" href={appData.settings.siteUrl} />
           {/* seo end */}        
       </Head>
       <Component {...pageProps} />
