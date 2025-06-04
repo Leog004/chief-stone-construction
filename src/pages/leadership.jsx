@@ -106,7 +106,7 @@ const Leadership = () => {
             </div>
             <div className="col-lg-5">
               <div className="head">
-                <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                <p>No matter the size of the project, we bring dependable craftsmanship, long-term guarantees, and forward-thinking solutions to every job.</p>
               </div>
             </div>
           </div>

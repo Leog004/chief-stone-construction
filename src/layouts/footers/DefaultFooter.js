@@ -22,7 +22,7 @@ const DefaultFooter = () => {
                             <img src="/img/blog-author-img-2.jpg" alt="Contact Images" />
                         </figure>
                     </div>
-                    <p>Sales representative <span>+1 (251) 344 0 66</span> free call !</p>
+                    <p>Built on Trust. Grounded in Stone.</p>
                 </div>
                 <Link href="/contact" className="theme-btn">
                     Get a Consultation <i className="fa-solid fa-angles-right" />
@@ -37,7 +37,7 @@ const DefaultFooter = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                     <h3>Information</h3>
-                    <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+                    <p>No matter the size of the project, we bring dependable craftsmanship, long-term guarantees, and forward-thinking solutions to every job.</p>
                 </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
