@@ -15,9 +15,6 @@ const ServicesSection = () => {
                 </div>
                 <h3><Link href={item.link}>{item.title}</Link></h3>
                 <p>{item.text}</p>
-                <Link href={item.link} className="icon">
-                    <i className="fa-solid fa-angles-right" />
-                </Link>
             </div>
             </div>
             ))}
