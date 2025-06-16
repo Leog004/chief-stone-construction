@@ -1,79 +1,78 @@
 ---
 #preview details
 image: "/img/serv-i-1.svg"
-title: "Construction"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Roofing"
+short: "Reliable Roofing Solutions to Protect What Matters Most."
 
 #full details
 description0:
   enabled: 1
   text1: "
-    <h3>Service Details</h3>
-    <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes <span>dozens of successfully</span> completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+    <h3>Your Roof, Our Responsibility</h3>
+    <p>Your roof is your home’s first line of defense. At Chief Stone Constructions, we take that seriously. Whether it's a full roof replacement or a simple repair, we bring decades of experience, reliable craftsmanship, and materials built to last. We've proudly completed <span>hundreds of roofing projects</span> that keep families covered and confident.</p>
   "
   text2: "
-    <h3>Service Benefits</h3>
+    <h3>Why Choose Us?</h3>
     <ul>
-      <li>Better defined projects, reducing risk and increasing success</li>
-      <li>We provide legislative compliance</li>
-      <li>Cost savings by getting expert advice during the project strategy and estimating</li>
-      <li>Realistic pricing and project timescales</li>
-      <li>Global access to services from world-wide construction consultancy</li>
+      <li>Weather-tested materials for long-term protection</li>
+      <li>Expert assessments and honest recommendations</li>
+      <li>Timely project completion with minimal disruption</li>
+      <li>Clear communication from start to finish</li>
+      <li>Warranties that give you peace of mind</li>
     </ul>
   "
 
 gallery: 
   enabled: 1
   items:
-      - image: /img/gallery-3.jpeg
-        alt: "image"
+    - image: /img/gallery-3.jpeg
+      alt: "Completed residential roof project"
 
-      - image: /img/gallery-2.jpeg
-        alt: "image"
+    - image: /img/gallery-2.jpeg
+      alt: "Shingle roof installation"
 
-      - image: /img/gallery-1.jpeg
-        alt: "image"
+    - image: /img/gallery-1.jpeg
+      alt: "Roofing team at work"
 
-      - image: /img/gallery-4.jpeg
-        alt: "image"
+    - image: /img/gallery-4.jpeg
+      alt: "New metal roofing system"
 
-      - image: /img/gallery-5.jpeg
-        alt: "image"          
+    - image: /img/gallery-5.jpeg
+      alt: "Finished home with new roof"         
 
 checklist:
   enabled: 1
   title: What can we support with?
   items:
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
+    - Roof inspections and leak detection
+    - Shingle, tile, and metal roof installation
+    - Storm damage repair and emergency response
+    - Roof replacements and upgrades
+    - Gutter and ventilation system integration
+    - Honest estimates and no-surprise pricing
 
 accordion:
   enabled: 1
-  title: Reporting and Cost Control
+  title: Roofing Questions We Commonly Get
   items:
-    - heading: Occupational Health Risk Management?
-      content: Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.
+    - heading: How do I know if my roof needs replacing?
+      content: We look for signs like missing shingles, sagging areas, or water damage inside the home. A full inspection helps determine whether repairs or replacement make the most sense.
 
-    - heading: What is commercial management in construction?
-      content: Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.
+    - heading: What type of roofing material should I choose?
+      content: It depends on your home, location, and budget. We’ll help you compare options like asphalt shingles, metal, tile, and more—each with its pros and lifespan.
 
-    - heading: Start a construction management?
-      content: Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.
+    - heading: How long does a roof replacement take?
+      content: Most roofing projects are completed within 1–3 days, depending on size and weather. We’ll give you a clear timeline before starting.
 
-    - heading: Measure quality in construction projects?
-      content: Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.
+    - heading: Do you offer warranties?
+      content: Yes! We back our work with both workmanship and manufacturer warranties to give you lasting peace of mind.
 
-    - heading: Prepare a construction project schedule?
-      content: Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.
+    - heading: Will insurance cover my roofing project?
+      content: In many cases, yes—especially if the damage is from a storm. We’ll help you navigate the process and provide detailed documentation.
 ---
 
 ### Highest Expectations
 
-Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
+Our roofing team understands how important it is to feel safe under your own roof—literally. That’s why we’re committed to providing flexible, honest solutions that meet your needs without cutting corners. Whether it’s fixing a leak or replacing an entire roof, we’re here to help protect what matters most to you—with the care and integrity that define Chief Stone Constructions.
 
-In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.
-                  
+

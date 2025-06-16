@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from "next/link";
 import appData from "@data/app.json";
 
-const PageBanner = ({ pageTitle, pageDesc }) => {
+const PageBanner = ({ pageTitle, pageDesc, isBreadcrumbsEnabled }) => {
   const styles = {
     "parallax": {
       "backgroundImage": "url(/images/pattren-3.png)"
@@ -36,6 +36,13 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
                     <p>Home</p>
                   </Link>
                 </li>
+                {isBreadcrumbsEnabled && (
+                  <li>
+                    <Link href="/services">
+                      <p>Services</p>
+                    </Link>
+                  </li>
+                )}
                 <li className="current">
                   <p>{pageTitle}</p>
                 </li>
