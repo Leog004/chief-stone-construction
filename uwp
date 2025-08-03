@@ -1,0 +1,191 @@
+// Models
+public class SummaryContainer
+{
+    public DateTime StartDate => Dates?.Count > 0 ? Dates.OrderBy(d => d).First() : DateTime.MinValue;
+    public DateTime EndDate => Dates?.Count > 0 ? Dates.OrderByDescending(d => d).First() : DateTime.MaxValue;
+
+    // Assumes Dates is pre-sorted; update here if sorting is needed => GetEarliestDate(Dates);
+    public DateTime EndDate => GetLatestDate(Dates);
+    public List<int> TimeTicks
+    {
+        get
+        {
+            var allTimes = Items
+                .SelectMany(i => i.Timeframes.Values)
+                .SelectMany(t => new[] { t.Item1, t.Item2 });
+
+            if (!allTimes.Any()) return new List<int>();
+
+            int min = allTimes.Min();
+            int max = allTimes.Max();
+            var ticks
+            for (int t = min; t <= max; t += 10)
+            {
+                ticks.Add(t);
+            }
+            return ticks;
+        }
+    }
+    public string Label { get; set; } = "Categories";
+    public List<DateTime> Dates { get; set; } = new List<DateTime>();
+    public ObservableCollection<SummaryContainerItem> Items { get; set; } = new ObservableCollection<SummaryContainerItem>();
+    public Visibility TableVisibility { get; set; } = Visibility.Visible;
+}
+
+public class SummaryContainerItem
+{
+    public string Category { get; set; }
+    public Dictionary<DateTime, Tuple<int, int>> Timeframes { get; set; } = new Dictionary<DateTime, Tuple<int, int>>();
+}
+
+// XAML Control: SummaryTableControl.xaml
+/*
+<UserControl
+    x:Class="YourNamespace.SummaryTableControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:YourNamespace"
+    x:Name="Root">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <StackPanel>
+            <!-- Header -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="1000" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Category" FontWeight="Bold" VerticalAlignment="Center" />
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="" />
+
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                    <ItemsControl ItemsSource="{Binding Summary.Dates, ElementName=Root}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Width="300" BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding}" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+    <ItemsControl ItemsSource="{Binding TimeTicks, ElementName=Root}">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <TextBlock Text="{Binding}" Margin="5,0" />
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</StackPanel>
+            </Grid>
+
+            <!-- Rows -->
+            <ItemsControl ItemsSource="{Binding Summary.Items, ElementName=Root}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150" />
+                                <ColumnDefinition Width="1000" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Category}" Grid.Column="0" VerticalAlignment="Center" />
+
+                            <Canvas Grid.Column="1" Height="40">
+                                <ItemsControl ItemsSource="{Binding Timeframes}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Rectangle Fill="Blue" Height="30" VerticalAlignment="Top">
+                                                Width="{Binding Value, Converter={x:Bind WidthFromTimeframe}}"
+                                            </Rectangle>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Canvas>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
+*/
+
+// Code-behind: SummaryTableControl.xaml.cs
+public sealed partial class SummaryTableControl : UserControl
+{
+    public static double WidthFromTimeframe(Tuple<int, int> range)
+    {
+        if (range == null) return 0;
+        int start = range.Item1;
+        int end = range.Item2;
+        double unitWidth = 0.1;
+        return Math.Max((end - start) * unitWidth, 1);
+    }
+
+    public SummaryTableControl()
+    {
+        this.InitializeComponent();
+    }
+
+    public SummaryContainer Summary
+    {
+        get { return (SummaryContainer)GetValue(SummaryProperty); }
+        set { SetValue(SummaryProperty, value); }
+    }
+
+    private static void OnSummaryChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    {
+        var control = (SummaryTableControl)d;
+        control.DataContext = e.NewValue;
+    }
+        set { SetValue(SummaryProperty, value); }
+    }
+
+    public static readonly DependencyProperty SummaryProperty =
+        DependencyProperty.Register("Summary", typeof(SummaryContainer), typeof(SummaryTableControl), new PropertyMetadata(null, OnSummaryChanged));
+
+    public SummaryTableControl()
+    {
+        this.InitializeComponent();
+
+        this.DataContext = this;
+    }
+}
+
+// Width calculation handled in code-behind below
+
+// Usage Example in MainPage.xaml.cs
+/*
+Summary = new SummaryContainer
+{
+    Dates = new List<DateTime> { DateTime.Today, DateTime.Today.AddDays(1), DateTime.Today.AddDays(2) },
+    Items = new ObservableCollection<SummaryContainerItem>
+    {
+        new SummaryContainerItem
+        {
+            Category = "Category 1",
+            Timeframes = new Dictionary<DateTime, Tuple<int, int>>
+            {
+                { DateTime.Today, Tuple.Create(2200, 2300) },
+                { DateTime.Today.AddDays(1), Tuple.Create(3000, 10000) }
+            }
+        },
+        new SummaryContainerItem
+        {
+            Category = "Category 2",
+            Timeframes = new Dictionary<DateTime, Tuple<int, int>>
+            {
+                { DateTime.Today, Tuple.Create(2200, 10000) }
+            }
+        }
+    }
+};
+*/
