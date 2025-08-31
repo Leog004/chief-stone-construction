@@ -1,8 +1,9 @@
 ---
 #preview
-title: Atmosphere Housing
-image: /img/project5.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
+title: Privacy Fence Replacement – Clean Upgrade with Lasting Impact
+image: /images/caleb-upload-image-here/fencing/project-4/IMG_0384.jpeg
+short: "This fencing project gave the client's yard a major visual and functional boost. We removed the old, weathered fence and installed a clean, durable new privacy fence using high-quality wood. The result: enhanced curb appeal, increased security, and a more defined outdoor space."
+category: fencing
 location: "London"
 dates: "1999-2000"
 
@@ -37,19 +38,26 @@ details:
 
 slider: 
     items:
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/fencing/project-4/IMG_0385.jpeg
           alt: "image"
+          caption: "before"
 
-        - image: /img/project6.jpeg
+        - image: /images/caleb-upload-image-here/fencing/project-4/IMG_0384.jpeg
           alt: "image"
-
-        - image: /img/project7.jpeg
-          alt: "image"
-        
-        - image: /img/project8.jpeg
-          alt: "image"
+          caption: "after"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+This fencing project gave the client's yard a major visual and functional boost. We removed the old, weathered fence and installed a clean, durable new privacy fence using high-quality wood. The result: enhanced curb appeal, increased security, and a more defined outdoor space.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🪚 Before:
+The existing fence was weathered, aged, and sagging in multiple areas
+Gaps in coverage reduced privacy and left the yard exposed
+Uneven lines and outdated materials detracted from the home’s overall appearance
+
+🪵 After:
+Installed brand-new, pressure-treated privacy fencing with a clean vertical picket finish
+Reinforced posts for long-term durability and resistance to wind and weather
+Uniform height and consistent alignment improved the look and value of the yard
+Full perimeter restored for better security and peace of mind
+
+A refreshed fence is more than just wood—it’s a fresh start for the backyard. This upgrade gave the homeowner the freedom to enjoy their outdoor space again, with style and privacy they can rely on.
