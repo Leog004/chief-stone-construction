@@ -55,7 +55,7 @@ const Projects2Slider = ({ projects }) => {
               <div className="col-lg-6">
                 <div className="proj-image">
                   <figure style={{ height: "633px", overflow: "hidden" }}>
-                    <Link href={`/projects/${item.id}`}>
+                    <Link href={`/projects`}>
                       <img
                         src={item.image}
                         alt={item.title}

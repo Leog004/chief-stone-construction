@@ -5,16 +5,7 @@ image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0076.jp
 short: "From blueprint to bakery, we led the complete general contracting effort for this Crumbl Cookie location. Our team managed every phase—from permitting and interior framing to final inspections—ensuring brand standards, quality craftsmanship, and an on-time launch."
 location: "United States"
 dates: "1999-2000"
-
-#full details
-checklist:
-    title: What's Included in Project
-    items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+category: general-contracting
 
 details:
     items:
@@ -37,17 +28,96 @@ details:
 
 slider: 
     items:
-        - image: /img/project2.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0076.jpeg
+          alt: "image"
+          
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1678.jpeg
           alt: "image"
 
-        - image: /img/project3.jpeg
-          alt: "image"
-
-        - image: /img/project4.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1645.jpeg
           alt: "image"
         
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1534.jpeg
           alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1103.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0432.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2610.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2580.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2573.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2567.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2558.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2553.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2525.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2489.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2488.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2461.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2456.jpeg
+          alt: "image"
+          
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2046.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0182.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0121.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_8932.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_8892.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5803.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5786.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5777.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_4546.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_4296.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_4287.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2632.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2615.jpeg
+          alt: "image"
+
 ---
 
 From blueprint to bakery, we led the complete general contracting effort for this Crumbl Cookie location. Our team managed every phase—from permitting and interior framing to final inspections—ensuring brand standards, quality craftsmanship, and an on-time launch.

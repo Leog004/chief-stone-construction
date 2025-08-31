@@ -52,36 +52,7 @@
       {
         "label": "Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Services",
-            "link": "/services",
-            "children": [
-              {
-                "label": "Services List",
-                "link": "/services"
-              },
-              {
-                "label": "Service Detail",
-                "link": "/services/service-1"
-              }
-            ]
-          },
-          {
-            "label": "Team",
-            "link": "/team",
-            "children": [
-              {
-                "label": "Team List",
-                "link": "/team"
-              },
-              {
-                "label": "Team Detail",
-                "link": "/team/team-1"
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "label": "Blog",
