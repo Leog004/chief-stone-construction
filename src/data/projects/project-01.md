@@ -1,21 +1,11 @@
 ---
 #preview
-title: Project Horizon Redevelopment
-image: /img/project1.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "United States"
-dates: "1999-2000"
+title: Luxury Bathroom Remodel with Full Reconfiguration
+image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6500.jpeg
+short: This high-end bathroom renovation was a complete transformation from the ground up. We fully gutted the original space and reimagined it with timeless materials, thoughtful lighting, and a spa-like layout—blending modern comfort with classic elegance.
+category: home-improvement
 
 #full details
-checklist:
-    title: What's Included in Project
-    items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
-
 details:
     items:
         - label: Sectors
@@ -37,19 +27,32 @@ details:
 
 slider: 
     items:
-        - image: /img/project2.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6497.jpeg
           alt: "image"
 
-        - image: /img/project3.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6498.jpeg
           alt: "image"
 
-        - image: /img/project4.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6500.jpeg
           alt: "image"
         
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6501.jpeg
+          alt: "image"
+          
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6502.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6407.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6414.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6427.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6496.jpeg
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
-
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+This high-end bathroom renovation was a complete transformation from the ground up. We fully gutted the original space and reimagined it with timeless materials, thoughtful lighting, and a spa-like layout—blending modern comfort with classic elegance.Additional renovations throughout the home included updates to flooring, lighting, and layout reconfiguration—resulting in a cohesive transformation that elevated the entire living space.
