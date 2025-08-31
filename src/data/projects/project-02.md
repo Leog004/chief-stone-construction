@@ -1,20 +1,11 @@
 ---
 #preview
-title: Charles Dedham Workspace
-image: /img/project2.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "United Kingdom"
+title: Whole-Home Renovation with Exterior Refresh and Landscape Revitalization
+image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4936.jpeg
+short: "This project brought new life to a classic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. Every element—from curb appeal to indoor flow—was carefully reimagined to blend charm, functionality, and modern comfort."
+location: "Edmond, Oklohoma"
 dates: "1999-2000"
-
-#full details
-checklist:
-    title: What's Included in Project
-    items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+category: home-improvement
 
 details:
     items:
@@ -34,22 +25,61 @@ details:
           value: "Started: 1990 - Ending: 2000"
           icon: /img/icon-pd-4.svg
 
-
 slider: 
     items:
-        - image: /img/project3.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_2712.jpeg
           alt: "image"
+          caption: "before"
 
-        - image: /img/project4.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_2713.jpeg
           alt: "image"
+          caption: "before"
+          
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_2714.jpeg
+          alt: "image"
+          caption: "before"
 
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_2716.jpeg
           alt: "image"
-        
-        - image: /img/project6.jpeg
+          caption: "before"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_2717.jpeg
           alt: "image"
+          caption: "before"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4936.jpeg
+          alt: "image"
+          caption: "after"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4939.jpeg
+          alt: "image"
+          caption: "after"
+          
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4941.jpeg
+          alt: "image"
+          caption: "after"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4943.jpeg
+          alt: "image"
+          caption: "after"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4948.jpeg
+          alt: "image"
+          caption: "after"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+This project brought new life to a classic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. Every element—from curb appeal to indoor flow—was carefully reimagined to blend charm, functionality, and modern comfort.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🏠 Exterior Renovation
+
+Repainted or replaced siding with clean, bright finishes to enhance curb appeal
+Restored window trim and front door with modern contrast and detailing
+Upgraded lighting and new iron handrails to bring a timeless, upscale look
+Attention to architectural details (like the gable vent and roofline) to preserve character
+
+🏡 Landscaping Improvements
+Added mulch beds, trimmed existing trees, and cleaned up overgrowth for a refreshed, welcoming yard
+Opened up the front path with new steps and entry points, making the home feel more accessible
+Balanced privacy and openness using fencing and natural 
+
+This project is a true example of what we stand for at Chief Stone Constructions: combining character and craftsmanship with modern comfort and smart planning. A house refreshed from the inside out—built to be loved for years to come.

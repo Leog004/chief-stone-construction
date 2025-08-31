@@ -14,14 +14,6 @@ const DefaultFooter = () => {
                     </Link>
                 </div>
                 <div className="contact-info d-flex-all">
-                    <div className="images d-flex-all justify-content-start">
-                        <figure>
-                            <img src="/img/blog-author-img.jpg" alt="Contact Images" />
-                        </figure>
-                        <figure>
-                            <img src="/img/blog-author-img-2.jpg" alt="Contact Images" />
-                        </figure>
-                    </div>
                     <p>Built on Trust. Grounded in Stone.</p>
                 </div>
                 <Link href="/contact" className="theme-btn">

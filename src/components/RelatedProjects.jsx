@@ -5,9 +5,9 @@ const RelatedProjects = ({ projects }) => {
     <>
       <section className="gap no-top project-style-one extra addition">
         <div className="heading">
-          <figure>
-            <img src="/images/heading-icon.png" alt="Heading Icon" />
-          </figure>
+        <figure>
+          <img src="/img/image2vector-3.svg" alt="heading-icon" />
+        </figure>
           <span>Company Porjects</span>
           <h2>Related Projects</h2>
         </div>
