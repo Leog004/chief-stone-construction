@@ -18,7 +18,7 @@ const Home3 = (props) => {
       <>
         <Hero3Section />
         <About3Section />
-        <CallToActionSection />
+        {/* <CallToActionSection /> */}
         <Projects2Slider projects={props.projects} />
         <ContactFormSection />
       </>
