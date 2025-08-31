@@ -1,20 +1,11 @@
 ---
 #preview
-title: The Stella & Bluewater
-image: /img/project4.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "Dubai"
-dates: "2004-2005"
-
-#full details
-checklist:
-    title: What's Included in Project
-    items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+title: Turnkey Crumbl Cookie Buildout
+image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0076.jpeg
+short: "From blueprint to bakery, we led the complete general contracting effort for this Crumbl Cookie location. Our team managed every phase—from permitting and interior framing to final inspections—ensuring brand standards, quality craftsmanship, and an on-time launch."
+location: "United States"
+dates: "1999-2000"
+category: general-contracting
 
 details:
     items:
@@ -37,19 +28,117 @@ details:
 
 slider: 
     items:
-        - image: /img/project3.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0076.jpeg
+          alt: "image"
+          
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1678.jpeg
           alt: "image"
 
-        - image: /img/project4.jpeg
-          alt: "image"
-
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1645.jpeg
           alt: "image"
         
-        - image: /img/project6.jpeg
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1534.jpeg
           alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_1103.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0432.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2610.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2580.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2573.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2567.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2558.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2553.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2525.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2489.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2488.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2461.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2456.jpeg
+          alt: "image"
+          
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2046.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0182.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0121.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_8932.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_8892.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5803.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5786.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_5777.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/img_4546.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_4296.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_4287.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2632.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_2615.jpeg
+          alt: "image"
+
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+From blueprint to bakery, we led the complete general contracting effort for this Crumbl Cookie location. Our team managed every phase—from permitting and interior framing to final inspections—ensuring brand standards, quality craftsmanship, and an on-time launch.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🏗️ Start-to-Finish Execution
+
+Oversaw the entire construction process from demolition (if applicable) to grand opening
+Worked directly with the franchisee and Crumbl corporate to meet all brand specs and compliance guidelines
+Coordinated permitting, inspections, subcontractor scheduling, and utility setup
+
+🧱 Interior Buildout
+
+Framing and drywall for commercial-grade kitchen, service, and prep areas
+Custom Crumbl front counter and branded finishes
+Electrical, plumbing, and HVAC installation tailored for bakery operations
+Commercial-grade flooring, lighting, and surfaces to match Crumbl's signature aesthetic
+
+📋 Project Management
+
+Delivered on strict timeline and budget constraints
+Conducted daily site oversight to ensure worksite safety and quality assurance
+Managed vendor coordination for kitchen equipment, signage, and finishes
+
+This franchise owner got more than just a contractor—they got a dependable partner who made the entire process seamless, so they could focus on launching their business with confidence.

@@ -71,41 +71,36 @@ export function getFeaturedProjectsData(ids) {
   })
 }
 
-export function getRelatedProjects(current_id) {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(projectsDirectory)
-  const allData = [];
+export function getRelatedProjects(current_id, limit = 3) {
+  const fileNames = fs.readdirSync(projectsDirectory);
 
-  fileNames.map(fileName => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '')
+  // Load all
+  const all = fileNames.map((fileName) => {
+    const id = fileName.replace(/\.md$/, "");
+    const fullPath = path.join(projectsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const matterResult = matter(fileContents);
+    return { id, ...matterResult.data };
+  });
 
-    // Read markdown file as string
-    const fullPath = path.join(projectsDirectory, fileName)
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
+  // Find current to know its category
+  const current = all.find(p => p.id === current_id);
+  const currentCategory = current?.category ?? null;
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents)
+  // Exclude current
+  const others = all.filter(p => p.id !== current_id);
 
-    // Exclude current id from result
+  // Same-category first
+  const sameCat = currentCategory ? others.filter(p => p.category === currentCategory) : [];
+  const difCat  = currentCategory ? others.filter(p => p.category !== currentCategory) : others;
 
-    if ( id != current_id ) {
-      // Combine the data with the id
-      allData.push({
-        id,
-        ...matterResult.data
-      });
-    }
-  })
+  // Sort within groups (optional: by date desc if you have date)
+  const byDateDesc = (a, b) => (new Date(b.date || 0)) - (new Date(a.date || 0));
+  sameCat.sort(byDateDesc);
+  difCat.sort(byDateDesc);
 
-  // Sort posts by date
-  return allData.sort((a, b) => {
-    if (a.category > b.category) {
-      return 1
-    } else {
-      return -1
-    }
-  })
+  // Combine and limit
+  return [...sameCat, ...difCat].slice(0, limit);
 }
 
 export function getAllProjectsIds() {

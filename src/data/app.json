@@ -50,56 +50,9 @@
       },
 
       {
-        "label": "Pages",
+        "label": "Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Projects",
-            "link": "/projects",
-            "children": [
-              {
-                "label": "Projects List",
-                "link": "/projects"
-              },
-              {
-                "label": "Projects Grid",
-                "link": "/projects-2"
-              },
-              {
-                "label": "Project Detail",
-                "link": "/projects/project-01"
-              }
-            ]
-          },
-          {
-            "label": "Services",
-            "link": "/services",
-            "children": [
-              {
-                "label": "Services List",
-                "link": "/services"
-              },
-              {
-                "label": "Service Detail",
-                "link": "/services/service-1"
-              }
-            ]
-          },
-          {
-            "label": "Team",
-            "link": "/team",
-            "children": [
-              {
-                "label": "Team List",
-                "link": "/team"
-              },
-              {
-                "label": "Team Detail",
-                "link": "/team/team-1"
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "label": "Blog",
@@ -147,12 +100,8 @@
       "title": "Facebook"
     },
     {
-      "link": "https://twitter.com",
-      "title": "Twitter"
-    },
-    {
-      "link": "https://linkedin.com",
-      "title": "Linkedin"
+      "link": "https://instagram.com",
+      "title": "Instagram"
     }
   ]
 }
