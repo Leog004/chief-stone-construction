@@ -1,8 +1,8 @@
 ---
 #preview
-title: IT Business Center
-image: /img/project10.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
+title: Luxury Bathroom Renovation with Marble-Look Slabs, Floating Vanities & Freestanding Tub
+image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0810.jpeg
+short: "This complete bathroom renovation turned a dated layout into a sleek, modern spa-like retreat. Featuring large-format marble-look tile slabs, a deep freestanding tub, warm wood vanities, and backlit mirrors — every element was upgraded for elegance, durability, and comfort."
 location: "Australia"
 dates: "2009-2010"
 
@@ -37,19 +37,49 @@ details:
 
 slider: 
     items:
-        - image: /img/project10.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_7137.jpeg
           alt: "image"
 
-        - image: /img/project2.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_7136.jpeg
           alt: "image"
 
-        - image: /img/project8.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0810.jpeg
           alt: "image"
         
-        - image: /img/project7.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0808.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0807.jpeg
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+This complete bathroom renovation turned a dated layout into a sleek, modern spa-like retreat. Featuring large-format marble-look tile slabs, a deep freestanding tub, warm wood vanities, and backlit mirrors — every element was upgraded for elegance, durability, and comfort.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🛠️ Scope of Work
+
+Full demolition of existing bathroom finishes and fixtures
+Installed new plumbing lines and relocated drains for freestanding tub
+Applied large-format porcelain slab tile on floors and full-height walls
+Constructed and mounted floating wood vanities with integrated sinks
+Installed round backlit LED mirrors for ambient lighting and luxury appeal
+Added custom glass shower enclosure and linear drain system
+Reworked ceiling with added skylight for natural daylighting
+
+🔧 Materials & Build Details
+
+Wall & floor tile: Large-format porcelain slabs with marble veining
+Vanities: Custom floating cabinets with natural wood veneer
+Tub: Freestanding deep soaking tub with floor-mounted filler
+Fixtures: Brushed nickel finish with modern square-edge profiles
+Mirrors: LED-lit, touch-sensor circular mirrors for mood and task lighting
+Skylight: Installed above tub for passive lighting and ventilation boost
+Shower: Frameless glass enclosure with inset shampoo niche
+
+🎯 Purpose & Impact
+
+Transformed a closed-in bathroom into a light-filled, open-concept oasis
+Elevated the space with premium materials and minimalist detailing
+Created a calming retreat for daily routines and relaxation
+Boosted home value and appeal through luxury finishes and smart design
+
+This bathroom now reflects the elegance and serenity of a high-end spa — right at home. With thoughtful lighting, custom finishes, and a timeless material palette, the renovation delivers both comfort and visual impact. It's more than a bathroom — it’s a lifestyle upgrade built to impress for years to come.

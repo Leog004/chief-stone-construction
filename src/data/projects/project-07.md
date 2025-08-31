@@ -1,10 +1,11 @@
 ---
 #preview
-title: Home building renovation
-image: /img/project7.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
+title: Complete Residential Roof Replacement with GAF Timberline HDZ System
+image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240801_124846_642_1722535153759_photo.jpeg
+short: "This project involved a full tear-off and reinstallation of a residential roofing system using high-performance architectural shingles and upgraded synthetic underlayment. The result is a clean, durable, and weather-resistant roof that enhances the property's value, efficiency, and longevity."
 location: "Melbourne"
 dates: "1999-2001"
+category: roofing
 
 #full details
 checklist:
@@ -37,19 +38,56 @@ details:
 
 slider: 
     items:
-        - image: /img/project7.jpeg
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240801_124846_642_1722535153759_photo.jpeg
           alt: "image"
 
-        - image: /img/project8.jpeg
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240801_124906_644_1722535149935_photo.jpeg
           alt: "image"
 
-        - image: /img/project1.jpeg
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_064550_654_1722686684991_photo.jpeg
           alt: "image"
         
-        - image: /img/project2.jpeg
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_065414_557_1722686658611_photo.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_081844_569_1722691248063_photo.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_081908_572_1722691251797_photo.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_113838_644_1722703582130_photo.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240803_113902_646_1722703578595_photo.jpeg
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+This project involved a full tear-off and reinstallation of a residential roofing system using high-performance architectural shingles and upgraded synthetic underlayment. The result is a clean, durable, and weather-resistant roof that enhances the property's value, efficiency, and longevity.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🛠️ Scope of Work
+
+Full removal of existing roof shingles and underlayment
+Inspection and repair of roof decking as needed
+Installation of synthetic underlayment for superior water resistance
+Application of architectural shingles (GAF Timberline HDZ series)
+Installation of ridge vents and pipe boots for ventilation and water sealing
+Thorough cleanup and final inspection
+
+🔧 Materials & Build Details
+
+Shingles: GAF Timberline HDZ architectural shingles
+Underlayment: Synthetic moisture barrier for enhanced leak protection
+Ventilation: Ridge vents for proper attic airflow and efficiency
+Flashing & Pipe Boots: Installed or replaced for full perimeter sealing
+Nails/Hardware: Ring-shank galvanized roofing nails for long-term hold
+
+🎯 Purpose & Impact
+
+Protected the home with a fully weather-sealed roof system
+Boosted curb appeal with uniform, modern shingle finish
+Increased home value and longevity with a premium-grade roof
+Provided peace of mind with manufacturer warranty-backed materials
+Enhanced energy efficiency through upgraded attic ventilation
+
+A roof is more than protection—it's an investment in your home’s future. This complete roofing upgrade delivers lasting performance, safety, and visual appeal. With industry-leading materials and careful installation, the homeowners can rest easy knowing their property is protected for decades to come.

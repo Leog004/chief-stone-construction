@@ -55,27 +55,6 @@
         "children": []
       },
       {
-        "label": "Blog",
-        "link": "/blog",
-        "children": [
-          {
-            "label": "Blog Grid",
-            "link": "/blog",
-            "children": 0
-          },
-          {
-            "label": "Blog List",
-            "link": "/blog-2",
-            "children": 0
-          },
-          {
-            "label": "Blog Detail",
-            "link": "/blog/play-to-your-strength-and-supercharge-your-business",
-            "children": 0
-          }
-        ]
-      },
-      {
         "label": "Contact",
         "link": "/contact",
         "children": 0

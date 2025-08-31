@@ -1,10 +1,11 @@
 ---
 #preview
-title: Charles Dedham House
-image: /img/project2.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
+title: Interior Entryway Renovation with New Flooring, Door Replacement & Structural Reinforcement
+image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0128.jpeg
+short: "This residential entry remodel transformed a dated, deteriorating threshold into a structurally sound and visually refined space. Featuring a subfloor rebuild, new tile installation, and a modern exterior door with integrated dog access, the project brings practical elegance to the front-facing area of the home."
 location: "Melbourne"
 dates: "1995-1997"
+category: home-improvement
 
 #full details
 checklist:
@@ -37,19 +38,67 @@ details:
 
 slider: 
     items:
-        - image: /img/project7.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0005.jpeg
           alt: "image"
 
-        - image: /img/project1.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0010.jpeg
           alt: "image"
 
-        - image: /img/project3.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0022.jpeg
           alt: "image"
         
-        - image: /img/project5.jpeg
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0059.jpeg
           alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0124.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0126.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0128.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0130.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_6790.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_6798.jpeg
+          alt: "image"
+
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_6808.jpeg
+          alt: "image"
+        
+        - image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_6809.jpeg
+          alt: "image"
+
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+This residential entry remodel transformed a dated, deteriorating threshold into a structurally sound and visually refined space. Featuring a subfloor rebuild, new tile installation, and a modern exterior door with integrated dog access, the project brings practical elegance to the front-facing area of the home.
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+🛠️ Scope of Work
+
+Demolished existing tile, underlayment, and deteriorated subfloor
+Reframed subfloor using TruFlor panels for structural reinforcement
+Installed underlayment and laid new tile with clean, modern pattern
+Replaced entry door with upgraded model featuring pet-access insert
+Painted and trimmed entryway interior for clean finish
+
+🔧 Materials & Build Details
+
+Subfloor: TruFlor engineered panels for moisture resistance and durability
+Tile: Modern ceramic flooring with a woodgrain appearance
+Door: Steel exterior door with full insulation and pet door feature
+Underlayment: Cement board for tile stability and water defense
+Hardware: Heavy-duty fasteners and sealants for long-term performance
+
+🎯 Purpose & Impact
+
+Reinforced structural integrity in a high-traffic zone
+Enhanced visual appeal with stylish tile and sleek finishes
+Improved insulation and weather resistance at home’s primary entrance
+Increased day-to-day functionality with built-in pet access
+
+This remodel turned a worn, drafty entry into a space that’s durable, practical, and welcoming. With upgraded materials and a focus on both form and function, the homeowners now have a solid, stylish first impression that blends seamlessly into the rest of the home.
