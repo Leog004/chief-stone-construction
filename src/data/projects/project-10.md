@@ -1,6 +1,6 @@
 ---
 #preview
-title: Caleb's Edit to this - Luxury Bathroom Renovation with Marble-Look Slabs, Floating Vanities & Freestanding Tub
+title: Leo's Edit to this - Luxury Bathroom Renovation with Marble-Look Slabs, Floating Vanities & Freestanding Tub
 image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0810.jpeg
 short: "This complete bathroom renovation turned a dated layout into a sleek, modern spa-like retreat. Featuring large-format marble-look tile slabs, a deep freestanding tub, warm wood vanities, and backlit mirrors — every element was upgraded for elegance, durability, and comfort."
 location: "Australia"
