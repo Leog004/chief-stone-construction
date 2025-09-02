@@ -19,7 +19,7 @@ import {
 } from "@library/projects";
 
 import RelatedProjectsSection from "@components/RelatedProjects";
-import CallToActionSection from "@components/sections/CallToAction";
+import ContactFormSection from "@/src/components/sections/ContactForm";
 
 const ProjectDetail = (props) => {
   const postData = props.data;
@@ -292,7 +292,7 @@ const ProjectDetail = (props) => {
       </section>
 
       <RelatedProjectsSection projects={props.related} />
-      <CallToActionSection />
+      <ContactFormSection />
     </Layouts>
   );
 };
