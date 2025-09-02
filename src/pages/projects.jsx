@@ -59,7 +59,7 @@ const Portfolio = (props) => {
                   title={slug === "all" ? "Show all projects" : `Show ${label}`}
                   style={{
                     padding: "6px 12px",
-                    borderRadius: 9999,
+                    borderRadius: "6px",
                     border: "1px solid #ddd",
                     background: isActive ? "#111" : "#fff",
                     color: isActive ? "#fff" : "#111",

@@ -26,13 +26,13 @@ const DefaultFooter = () => {
         <div className="footer-p-2">
         <div className="container">
             <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="footer-col">
                     <h3>Information</h3>
                     <p>No matter the size of the project, we bring dependable craftsmanship, long-term guarantees, and forward-thinking solutions to every job.</p>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="footer-col">
                     <h3>Contact</h3>
                     <ul>
@@ -42,7 +42,16 @@ const DefaultFooter = () => {
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="40" height="62" viewBox="0 0 40 62"> <defs> <clipPath id="dasdasdasd"> <rect width="40" height="62"/> </clipPath> </defs> <g id="Mobsdfsdfsdfsdfile" clipPath="url(#dasdasdasd)"> <path id="Path_331" data-name="Path 1" d="M10,6a4,4,0,0,0-4,4V50a4,4,0,0,0,4,4H28a4,4,0,0,0,4-4V10a4,4,0,0,0-4-4H10m0-6H28A10,10,0,0,1,38,10V50A10,10,0,0,1,28,60H10A10,10,0,0,1,0,50V10A10,10,0,0,1,10,0Z" transform="translate(1 1)"/> <path id="Path_2" data-name="Path 2" d="M2.5,0h7a2.5,2.5,0,0,1,0,5h-7a2.5,2.5,0,0,1,0-5Z" transform="translate(14 48)"/> </g> </svg>
-                            <p>{appData.footer.info.tel}</p>
+                            <p>
+                                
+                                                        <a
+                          href={`${appData.footer.info.tel}`}
+                          className="text-decoration-none"
+                          style={{ color: "inherit"}}
+                        >
+                          {appData.footer.info.tel}
+                        </a>
+                                </p>
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="102" height="93" viewBox="0 0 102 93"> <defs> <clipPath id="clip-Email_B"> <rect width="102" height="93"/> </clipPath> </defs> <g id="Email_B" data-name="Email B" clipPath="url(#clip-Email_B)"> <path id="Path_1444" data-name="Path 1" d="M969.85,550.4,927.766,528.2l2.8-5.307,39.229,20.7,37.712-20.677,2.885,5.261Z" transform="translate(-918 -492)"/> <path id="Path_24" data-name="Path 2" d="M969.562,494.385l48.391,25.361,0,1.818c-.023,17.272-.043,42.814-.012,47.124l.012.024v.709c0,5.426-1.516,9.425-4.508,11.885a10.4,10.4,0,0,1-6.575,2.344l-75.5-.016c-3.557.071-5.965-.931-7.717-2.752-2.4-2.5-3.517-6.391-3.317-11.577l.065-1.194c.116-5.315.029-29.954-.067-46.535l-.011-1.842Zm42.386,28.988-42.411-22.227-43.2,22.238c.189,32.939.239,42.8-.143,46.148l.13.005c-.168,4.351.8,6.309,1.645,7.185a3.342,3.342,0,0,0,2.458.984l76.043-.071a4.65,4.65,0,0,0,3.16-.963c1.517-1.248,2.319-3.754,2.319-7.25h.09C1011.893,566.689,1011.9,557.566,1011.947,523.373Z" transform="translate(-918 -492)"/> </g> </svg>
@@ -51,7 +60,7 @@ const DefaultFooter = () => {
                     </ul>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            {/* <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                     <h3>Newsletter</h3>
                     <p>Signup for our weekly newsletter to get the latest news.</p>
@@ -63,7 +72,7 @@ const DefaultFooter = () => {
                         </button>
                     </form>
                 </div>
-            </div>
+            </div> */}
             </div>
         </div>
         </div>
