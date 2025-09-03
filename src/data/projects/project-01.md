@@ -6,6 +6,14 @@ short: Complete transformation from the ground up. Using top of the line waterpr
 category: home-improvement
 
 #full details
+checklist:
+    title: What's Included in a Project
+    items:
+        - Dedication to client satisfaction
+        - Teamwork and collabration
+        - Leadership in our profession and work ethic
+        - Effective communication and planning 
+
 details:
     items:
         - label: Area
