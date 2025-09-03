@@ -1,38 +1,36 @@
 ---
 #preview
-title: Interior Entryway Renovation with New Flooring, Door Replacement & Structural Reinforcement
+title: Residential Addition
 image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0128.jpeg
-short: "This residential entry remodel transformed a dated, deteriorating threshold into a structurally sound and visually refined space. Featuring a subfloor rebuild, new tile installation, and a modern exterior door with integrated dog access, the project brings practical elegance to the front-facing area of the home."
-location: "Melbourne"
-dates: "1995-1997"
+short: "This old residential patio entry was converted to a living space before the new homeowners moved in. But we came together to transform this dated and deteriorating conversion into a structurally sound and visually refined space."
+dates: "n/a"
 category: home-improvement
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: What's Included in a Project
     items:
         - Dedication to client satisfaction
         - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+        - Leadership in our profession and work ethic
+        - Effective communication and planning
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Area
+          value: Nichols Hills, OK
           icon: /img/icon-pd-1.svg
 
         - label: Owner
-          value: Communities Development
+          value: Residential
           icon: /img/icon-pd-2.svg
         
         - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+          value: "220"
           icon: /img/icon-pd-3.svg
         
         - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+          value: "N/A"
           icon: /img/icon-pd-4.svg
 
 
@@ -76,29 +74,24 @@ slider:
 
 ---
 
-This residential entry remodel transformed a dated, deteriorating threshold into a structurally sound and visually refined space. Featuring a subfloor rebuild, new tile installation, and a modern exterior door with integrated dog access, the project brings practical elegance to the front-facing area of the home.
+This Project features a functionality upgrade to the homeowners favorite room of the house 
 
-🛠️ Scope of Work
+Scope of Work
 
 Demolished existing tile, underlayment, and deteriorated subfloor
-Reframed subfloor using TruFlor panels for structural reinforcement
+Reframed subfloor to be level with existing home 
 Installed underlayment and laid new tile with clean, modern pattern
 Replaced entry door with upgraded model featuring pet-access insert
-Painted and trimmed entryway interior for clean finish
+New Farmhouse interior door 
+Painted and trimmed interior for clean finish
+New Exterior siding and trim 
+Fresh paint along with a new patio light and outlet
 
-🔧 Materials & Build Details
-
-Subfloor: TruFlor engineered panels for moisture resistance and durability
-Tile: Modern ceramic flooring with a woodgrain appearance
-Door: Steel exterior door with full insulation and pet door feature
-Underlayment: Cement board for tile stability and water defense
-Hardware: Heavy-duty fasteners and sealants for long-term performance
-
-🎯 Purpose & Impact
+Purpose & Impact
 
 Reinforced structural integrity in a high-traffic zone
 Enhanced visual appeal with stylish tile and sleek finishes
-Improved insulation and weather resistance at home’s primary entrance
-Increased day-to-day functionality with built-in pet access
+Improved insulation and weather resistance at home owners favorite entrance
+Increased day-to-day functionality and safety with level ground and built-in pet access
 
-This remodel turned a worn, drafty entry into a space that’s durable, practical, and welcoming. With upgraded materials and a focus on both form and function, the homeowners now have a solid, stylish first impression that blends seamlessly into the rest of the home.
+This remodel turned a worn, water damaged area into a space that’s durable, practical, and welcoming. With upgraded materials and a focus on both form and function, the homeowners now have a solid, stylish impression that blends seamlessly into their lifestyle.
