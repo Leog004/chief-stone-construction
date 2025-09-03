@@ -1,38 +1,37 @@
 ---
 #preview
-title: Commercial Fence Installation with Steel Post Framing & Gate Access
+title: Commercial Fence Installation with Double Gate Access
 image: /images/caleb-upload-image-here/fencing/project-2/01973d7c-db38-7ee7-bd86-cd99e0e0ab12.jpeg
-short: "This project involved a full fencing solution for a commercial property, including custom gate installation and a durable framing system built to withstand high traffic and heavy-duty use. The result is a clean, secure, and professional finish that enhances both functionality and curb appeal."
-location: "Lviv"
-dates: "1998-2000"
+short: "Fencing solution for a commercial property, including custom gate installation and a durable framing system built to withstand high traffic and heavy-duty use."
+location: ""
+dates: "n/a"
 category: fencing
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: What's Included in a Project
     items:
         - Dedication to client satisfaction
         - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+        - Leadership in our profession and work ethic
+        - Effective communication and planning 
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Area
+          value: OKC, OK
           icon: /img/icon-pd-1.svg
 
         - label: Owner
-          value: Communities Development
+          value: Commercial
           icon: /img/icon-pd-2.svg
         
         - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+          value: "325 Linear Feet"
           icon: /img/icon-pd-3.svg
         
         - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+          value: "N/A"
           icon: /img/icon-pd-4.svg
 
 
@@ -54,17 +53,17 @@ slider:
           alt: "image"
 ---
 
-This project involved a full fencing solution for a commercial property, including custom gate installation and a durable framing system built to withstand high traffic and heavy-duty use. The result is a clean, secure, and professional finish that enhances both functionality and curb appeal.
+This project involved a fencing solution for a commercial property, including custom gate installation and a durable framing system built to withstand high traffic and heavy-duty use. The result is a clean, secure, and professional finish that enhances both functionality and curb appeal.
 
-🛠️ Scope of Work
+Scope of Work
 
-Complete teardown of existing barrier (if applicable)
+Collaboration with owner and general contractor for clear layout
 Installed steel post system for commercial durability
-Framed and constructed full perimeter fencing with treated pickets
+Framed and constructed full perimeter fencing with pickets to match existing section
 Built and mounted custom access gates with heavy-duty steel hinges
-Finished with paint for uniform visual integration and weather resistance
+Finished with a color match stain for uniform visual integration, longevity, and weather resistance
 
-🔧 Materials & Build Details
+Materials & Build Details
 
 Steel posts & metal hardware for long-term structural strength
 Pressure-treated wood pickets, offering resistance to rot, warping, and wear
@@ -74,7 +73,7 @@ Custom-built access gates designed for daily commercial use
 🎯 Purpose & Impact
 
 Secured the perimeter for privacy and property protection
-Provided an aesthetic upgrade with clean lines and stain/paint finish
+Provided an aesthetic upgrade with clean lines and stain finish
 Ensured longevity and code compliance for a commercial environment
 Created a low-maintenance solution that holds up under frequent use
 
