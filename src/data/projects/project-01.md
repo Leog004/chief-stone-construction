@@ -1,27 +1,27 @@
 ---
 #preview
-title: Luxury Bathroom Remodel with Full Reconfiguration
+title: Luxury Bathroom Remodel
 image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6500.jpeg
-short: This high-end bathroom renovation was a complete transformation from the ground up. We fully gutted the original space and reimagined it with timeless materials, thoughtful lighting, and a spa-like layout—blending modern comfort with classic elegance.
+short: Complete transformation from the ground up. Using top of the line waterproofing systems, timeless materials, heated floors, culminating a classic elegance in this full transformation.  .
 category: home-improvement
 
 #full details
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Area
+          value: "OKC,OK"
           icon: /img/icon-pd-1.svg
 
         - label: Owner
-          value: Communities Development
+          value: "Residential"
           icon: /img/icon-pd-2.svg
         
         - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+          value: "150"
           icon: /img/icon-pd-3.svg
         
-        - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+        - label: Project
+          value: "Bathroom Remodel"
           icon: /img/icon-pd-4.svg
 
 
@@ -55,4 +55,4 @@ slider:
           alt: "image"
 ---
 
-This high-end bathroom renovation was a complete transformation from the ground up. We fully gutted the original space and reimagined it with timeless materials, thoughtful lighting, and a spa-like layout—blending modern comfort with classic elegance.Additional renovations throughout the home included updates to flooring, lighting, and layout reconfiguration—resulting in a cohesive transformation that elevated the entire living space.
+This high-end bathroom renovation was a complete transformation from the ground up. We fully gutted the original space and reimagined it with timeless materials, heated flooring, and a spa-like layout—blending modern comfort with classic elegance.
