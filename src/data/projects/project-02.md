@@ -1,28 +1,28 @@
 ---
 #preview
-title: Whole-Home Renovation with Exterior Refresh and Landscape Revitalization
+title: Whole-Home Renovation
 image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4936.jpeg
-short: "This project brought new life to a classic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. Every element—from curb appeal to indoor flow—was carefully reimagined to blend charm, functionality, and modern comfort."
-location: "Edmond, Oklohoma"
-dates: "1999-2000"
+short: "This project brought new life to a historic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. "
+location: "Guthrie, Oklohoma"
+dates: "n/a"
 category: home-improvement
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Area
+          value: Guthrie, OK
           icon: /img/icon-pd-1.svg
 
         - label: Owner
-          value: Communities Development
+          value: Investor House Flip
           icon: /img/icon-pd-2.svg
         
         - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+          value: "2,947"
           icon: /img/icon-pd-3.svg
         
         - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+          value: "n/a"
           icon: /img/icon-pd-4.svg
 
 slider: 
@@ -68,18 +68,20 @@ slider:
           caption: "after"
 ---
 
-This project brought new life to a classic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. Every element—from curb appeal to indoor flow—was carefully reimagined to blend charm, functionality, and modern comfort.
+This project brought new life to a historic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. Every element—from curb appeal to indoor flow—was carefully reimagined to blend charm, functionality, and modern comfort.
 
-🏠 Exterior Renovation
+Exterior Renovations
 
-Repainted or replaced siding with clean, bright finishes to enhance curb appeal
+Repainted trim for a clean, bright finish to enhance curb appeal
 Restored window trim and front door with modern contrast and detailing
-Upgraded lighting and new iron handrails to bring a timeless, upscale look
-Attention to architectural details (like the gable vent and roofline) to preserve character
-
-🏡 Landscaping Improvements
 Added mulch beds, trimmed existing trees, and cleaned up overgrowth for a refreshed, welcoming yard
-Opened up the front path with new steps and entry points, making the home feel more accessible
-Balanced privacy and openness using fencing and natural 
+Balanced privacy and openness using new, upgraded fencing.
 
-This project is a true example of what we stand for at Chief Stone Constructions: combining character and craftsmanship with modern comfort and smart planning. A house refreshed from the inside out—built to be loved for years to come.
+Interior Renovations
+
+Retextured and painted the entirety of the house and the wood trim and windows to bring a bright and more modern look while keeping the elegance of the origional historic trim. 
+Renewed Hardwood floors throughout all 3 floors including the two staircases. With modern LVP in the sunroom, kitchen, and back entry.  
+New light fixtures, vanities, and new window screens in all 42 windows. 
+Updated kitchen with new built in pantry, cabinet doors, counterops, sink,and appliances. 
+
+This project is a true example of what we love at Chief Stone Constructions: combining character and craftsmanship with modern comfort and smart planning. A house refreshed from the inside out—built to be loved for years to come.
