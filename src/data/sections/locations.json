@@ -5,11 +5,11 @@
     "numbers": [
         {
             "value": "100%",
-            "label": "Employee Owned"
+            "label": "Integrity Driven"
         },
         {
-            "value": "700",
-            "label": "Active Projects"
+            "value": "193",
+            "label": "Projects completed"
         }
     ],
     "countries": [
@@ -40,14 +40,24 @@
             },
             "locations": [
                 {
-                    "title": "Location 1",
+                    "title": "Idaho",
                     "image": "/img/loc.jpg",
-                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                    "text": "6 projects"
                 },
                 {
-                    "title": "Location 2",
+                    "title": "Arkansas",
                     "image": "/img/loc.jpg",
-                    "text": "9915 56th Ave. NW Edmonton, AB T6E 5L7"
+                    "text": "4 projects"
+                },
+                {
+                    "title": "Oklahoma",
+                    "image": "/img/loc.jpg",
+                    "text": "180 projects"
+                },
+                {
+                    "title": "(or) Fayettville, Arkansas",
+                    "image": "/img/loc.jpg",
+                    "text": "Home Addition"
                 }
             ]
         },
