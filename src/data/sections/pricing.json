@@ -3,9 +3,9 @@
     "title": "Flexible Pricing Plans",
     "items": [
         {
-            "title": "Plan.it",
-            "description": "Manage your own project documents and collaborate.",
-            "price": "$20",
+            "title": "Materials",
+            "description": "Help put money towards the materials for the Pay-it-forward projects.",
+            "price": "$200",
             "price_after_1": "Per user / Month",
             "price_after_2": "Billed Annually",
             "list": [
@@ -20,11 +20,11 @@
             "image": "/img/pricing1.jpeg"
         },
         {
-            "title": "Build.it",
-            "description": "Manage your own project documents and collaborate.",
-            "price": "$60",
-            "price_after_1": "Per user / Month",
-            "price_after_2": "Billed Annually",
+            "title": "Contractors",
+            "description": "Pay-it-forward for small to medium sized projects done for free from our team, helping pay for materials and subcontractor costs.",
+            "price": "$1000",
+            "price_after_1": "Per / Month",
+            "price_after_2": "Billed Monthly",
             "list": [
                 "Dolorum sed doloribus",
                 "Consectetur adipisicing elit",
@@ -37,11 +37,11 @@
             "image": "/img/pricing2.jpeg"
         },
         {
-            "title": "Build.it PRO",
-            "description": "Manage your own project documents and collaborate.",
-            "price": "$94",
-            "price_after_1": "Per user / Month",
-            "price_after_2": "Billed Annually",
+            "title": "Projects",
+            "description": "Projects-PRO is where you can donate to pay-it-forward for projects that youy want to provide for completely where we will help manage and execute the project.",
+            "price": "$10,000-$100,000",
+            "price_after_1": "Per / Month",
+            "price_after_2": "Billed Monthly",
             "list": [
                 "Dolorum sed doloribus",
                 "Consectetur adipisicing elit",
