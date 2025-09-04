@@ -8,31 +8,30 @@ const Contact = () => {
   const faqData = {
     "items": [
         {
-            "title": "Occupational Health Risk Management?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+            "title": "Is the Most Expensive Price the Best Option?",
+            "text": "In construction there are many factors that influence a quote's range. A lot of the time the expertise of the contractor and the quality of the materials that will determine the discrepensies when comparing estimates. If you have the time to shop around for estimates make sure you always compare quality to quality not only dollar to dollar."
         },
         {
-            "title": "What is commercial management in construction?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+            "title": "Why should I pay for the more expensive materials?",
+            "text": "Often times the new and improved materials can cost more but as we like to say you are paying for longevity and peace of mind. Budgets dont always allow for the best materials but when they do we prefer working with them to increase our warranties and guarentees because we can rest easy knowing we put the best materials down."
         },
         {
-            "title": "Start a construction management?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+            "title": "How involved do I need to be during the process?",
+            "text": "During projects of all sizes we take on as much as you need to mitigate your stress. We do this because we love it, it should be exciting to build something new. we can take on every aspect of your project and keep you updated through the whole process."
+        {
+            "title": "How do I ensure quality in construction projects?",
+            "text": "The best way to ensure quality is to use good materials and have proof of quality work from your contractor of choice. Once your project is underway check on the project periodically and communicate with your contractor but remember that it is a process, not everything will look completed. Continual Communication with your contractor will help alleviate your concerns along the way."
         },
         {
-            "title": "Measure quality in construction projects?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        },
-        {
-            "title": "Prepare a construction project schedule?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+            "title": "Why am I not talking to you right now?",
+            "text": "That's a good question! It might be late but feel free to complete the form, text, email, or leave a voicemail and we will get in touch as soon as we can!."
         }
     ]
   }
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"Contact Us"} pageDesc={"our values and vaulted us to the top of our industry."} />
+        <PageBanner pageTitle={"Contact Us"} pageDesc={"Relationships That Matter."} />
 
         {/* Contact Form 2 Start */}
         <section className="gap contact-form-2">
