@@ -164,3 +164,17 @@ JSX is the recipe format that lets me mix ingredients and describe the dish at t
 What it is → Why → How it works → Features → Why powerful → Analogy.
 
 Do you want me to also make a side-by-side slide idea (Left: JSX code, Right: what Babel compiles it into) so you can visually show people how JSX isn’t magic?
+
+
+
+“So let’s talk about hooks — not what every single one does, but why they even exist.
+
+Back in the day, React had two kinds of components. Function components were super simple — just take props and return UI. But they couldn’t have state or side effects. If you needed that, you had to use a class component. And classes worked, but they came with a lot of boilerplate, and related logic was often split apart across different lifecycle methods. It got messy fast.
+
+Hooks were React’s answer to this problem. They let us use state, side effects, context — all the important stuff — inside functional components. That means we can keep components simple functions while still giving them memory, behavior, and lifecycle hooks into React.
+
+Why is that important? Well, it makes code easier to write, easier to read, and easier to reuse. With custom hooks, we can package logic and share it across components instead of copying code. It also gives React one consistent model: components are just functions that ‘hook into’ React’s features.
+
+The way I like to think about it is — hooks are like power-ups. A plain function component is a blank character in a game. Add useState and it gets memory. Add useEffect and it can react to the outside world. Add useContext and it can connect to the rest of the app. Hooks give us those superpowers without taking away the simplicity of functions.
+
+So the big takeaway is: hooks matter because they make functional components powerful, reusable, and much easier to manage compared to the old class-based way of doing things.”
