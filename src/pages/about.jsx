@@ -65,7 +65,7 @@ const About = () => {
           <figure>
             <img src="/images/heading-icon.png" alt="Heading Icon" />
           </figure>
-          <span>Plans -> Execution</span>
+          <span>Plans -&gt; Execution</span>
           <h2>How it Works</h2>
         </div>
         <div className="container">
