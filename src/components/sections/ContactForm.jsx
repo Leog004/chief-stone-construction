@@ -170,9 +170,10 @@ const ContactFormSection = () => {
                           value={values.subject}
                         >
                           <option>Subject</option>
-                          <option value="1">Subject 1</option>
-                          <option value="2">Subject 2</option>
-                          <option value="3">Subject 3</option>
+                          <option value="New Inquiry for Fencing">Fencing</option>
+                          <option value="New Inquiry for Home Improvement">Home Improvement</option>
+                          <option value="New Inquiry for General Contracting">General Contracting</option>
+                           <option value="New Inquiry for Roofing">Roofing</option>
                         </select>
                       </div>
                     </div>
