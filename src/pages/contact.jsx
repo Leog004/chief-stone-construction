@@ -18,6 +18,7 @@ const Contact = () => {
         {
             "title": "How involved do I need to be during the process?",
             "text": "During projects of all sizes we take on as much as you need to mitigate your stress. We do this because we love it, it should be exciting to build something new. we can take on every aspect of your project and keep you updated through the whole process."
+        },
         {
             "title": "How do I ensure quality in construction projects?",
             "text": "The best way to ensure quality is to use good materials and have proof of quality work from your contractor of choice. Once your project is underway check on the project periodically and communicate with your contractor but remember that it is a process, not everything will look completed. Continual Communication with your contractor will help alleviate your concerns along the way."
