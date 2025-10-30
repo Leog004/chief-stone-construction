@@ -1,6 +1,6 @@
 {
     "subtitle": "What We Provide",
-    "title": "Exclusive Services",
+    "title": "Services",
     "button": {
         "label": "View All Services",
         "link": "/services"
@@ -8,32 +8,32 @@
     "items": [
         {
             "icon": "/img/serv-i-1.svg",
-            "title": "Construction",
-            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "title": "Residential Remodels",
+            "text": "Designing and Building The Most Beautiful Home Renovations.",
             "link": "/services/service-1"
         },
         {
             "icon": "/img/serv-i-2.svg",
-            "title": "Project Development",
-            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "title": "Residential Construction",
+            "text": "If you can dream it, we can build it. Construction projects from bottom to top.",
             "link": "/services/service-2"
         },
         {
             "icon": "/img/serv-i-3.svg",
-            "title": "Interior Design",
-            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "title": "Home Building",
+            "text": "Building Anything from Spec Homes to Completely Custom Homes.",
             "link": "/services/service-3"
         },
         {
             "icon": "/img/serv-i-4.svg",
-            "title": "Welding & Laser",
-            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "title": "Commercial Construction",
+            "text": "Working With Retail, Office, Industrial, Multifamily, and Storage Builds.",
             "link": "/services/service-3"
         },
         {
             "icon": "/img/serv-i-5.svg",
-            "title": "Architecture",
-            "text": "Designing and Building The Most Beautiful Custom Homes.",
+            "title": "Design & Signage",
+            "text": "Designing Graphics and Installing Fully Custom Signage.",
             "link": "/services/service-3"
         }
     ]

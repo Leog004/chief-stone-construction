@@ -1,38 +1,37 @@
 ---
 #preview
-title: Complete Residential Roof Replacement with GAF Timberline HDZ System
+title: Complete Residential Roof and Gutter Replacement 
 image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240801_124846_642_1722535153759_photo.jpeg
-short: "This project involved a full tear-off and reinstallation of a residential roofing system using high-performance architectural shingles and upgraded synthetic underlayment. The result is a clean, durable, and weather-resistant roof that enhances the property's value, efficiency, and longevity."
-location: "Melbourne"
-dates: "1999-2001"
+short: "This project involved a full tear-off and reinstallation of a residential roofing system, gutters, and new french drains."
+location: "OKC, OK"
+dates: "n/a"
 category: roofing
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: What's Included in a Project
     items:
         - Dedication to client satisfaction
         - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+        - Leadership in our profession and work ethic
+        - Effective communication and planning 
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Area
+          value: OKC, OK
           icon: /img/icon-pd-1.svg
 
         - label: Owner
-          value: Communities Development
+          value: Residential
           icon: /img/icon-pd-2.svg
         
         - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+          value: "4,200"
           icon: /img/icon-pd-3.svg
         
         - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+          value: "n/a"
           icon: /img/icon-pd-4.svg
 
 
@@ -63,31 +62,23 @@ slider:
           alt: "image"
 ---
 
-This project involved a full tear-off and reinstallation of a residential roofing system using high-performance architectural shingles and upgraded synthetic underlayment. The result is a clean, durable, and weather-resistant roof that enhances the property's value, efficiency, and longevity.
+This project involved a full tear-off and reinstallation of a residential roofing system using GAF HDZ shingles and upgraded synthetic underlayment. The result is a clean, durable, and weather-resistant roof that enhances the property's value, efficiency, and longevity.
 
-🛠️ Scope of Work
+Scope of Work
 
 Full removal of existing roof shingles and underlayment
 Inspection and repair of roof decking as needed
 Installation of synthetic underlayment for superior water resistance
 Application of architectural shingles (GAF Timberline HDZ series)
-Installation of ridge vents and pipe boots for ventilation and water sealing
+Installation of new complete gutter system around the entire house
+Installation of new french drain/gutter drain system to mitigate water run-off and water damage to the yard
 Thorough cleanup and final inspection
 
-🔧 Materials & Build Details
-
-Shingles: GAF Timberline HDZ architectural shingles
-Underlayment: Synthetic moisture barrier for enhanced leak protection
-Ventilation: Ridge vents for proper attic airflow and efficiency
-Flashing & Pipe Boots: Installed or replaced for full perimeter sealing
-Nails/Hardware: Ring-shank galvanized roofing nails for long-term hold
-
-🎯 Purpose & Impact
+Purpose & Impact
 
 Protected the home with a fully weather-sealed roof system
-Boosted curb appeal with uniform, modern shingle finish
-Increased home value and longevity with a premium-grade roof
+Boosted curb appeal with uniform, modern shingle and gutter finish
+Increased home value and longevity with a premium-grade roof, surrounding gutters, and water redirection system
 Provided peace of mind with manufacturer warranty-backed materials
-Enhanced energy efficiency through upgraded attic ventilation
 
-A roof is more than protection—it's an investment in your home’s future. This complete roofing upgrade delivers lasting performance, safety, and visual appeal. With industry-leading materials and careful installation, the homeowners can rest easy knowing their property is protected for decades to come.
+A roof and its gutters are more than protection—it's an investment in your home’s future. This complete roofing and gutter upgrade delivers lasting performance, safety, and visual appeal. With industry-leading materials and careful installation, the homeowners can rest easy knowing their property is protected for years to come.

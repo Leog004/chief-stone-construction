@@ -6,8 +6,8 @@
                 "dark": "/images/1-icon.png",
                 "alt": "icon"
             },
-            "title": "Core Planning",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+            "title": "Charity Work",
+            "text": "Working with charities to help bring to fruition the physical needs of their mission.",
             "link": "/services/service-1"
         },
         {
@@ -16,8 +16,8 @@
                 "dark": "/images/2-icon.png",
                 "alt": "icon"
             },
-            "title": "Traditional Designs",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+            "title": "Events",
+            "text": "Events put on by Chief Stone to bring awareness and collaboration for causes and charities.",
             "link": "/services/service-2"
         },
         {
@@ -26,8 +26,8 @@
                 "dark": "/images/3-icon.png",
                 "alt": "icon"
             },
-            "title": "Quality Materials",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+            "title": "Consultation",
+            "text": "Consulting on projects to provide clarity and vision for optimal production.",
             "link": "/services/service-3"
         }
     ]

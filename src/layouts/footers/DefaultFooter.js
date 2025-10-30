@@ -14,7 +14,7 @@ const DefaultFooter = () => {
                     </Link>
                 </div>
                 <div className="contact-info d-flex-all">
-                    <p>Built on Trust. Grounded in Stone.</p>
+                    <p>A Healthy Home Begins With A Firm Foundation.</p>
                 </div>
                 <Link href="/contact" className="theme-btn">
                     Get a Consultation <i className="fa-solid fa-angles-right" />

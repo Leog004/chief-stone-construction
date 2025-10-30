@@ -19,7 +19,7 @@ const About = () => {
       <section className="gap about-first">
         <div className="container">
           <div className="row">
-            <h2>Construction industry representing the interests of small and medium-sized building companies</h2>
+            <h2>Welcome to Chief Stone Construction</h2>
           </div>
         </div>
         <div className="container">
@@ -28,7 +28,7 @@ const About = () => {
               <div className="who-we-are">
                 <div>
                   <h3>Who We Are?</h3>
-                  <p>We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                  <p>We are a company built upon the eternal truth that “A healthy home begins with a firm foundation.” In Scripture, the Chief Stone, or Cornerstone, was set to uphold and unite the walls of a structure, symbolizing strength, stability, and lasting security. For us, this image points directly to Jesus Christ, the true Cornerstone of our faith and the foundation upon which all else must rest (Ephesians 2:20). Out of an overflow of His love, Chief Stone Construction was founded with a passion not only for building homes of enduring quality, but also for fostering relationships grounded in trust, integrity, and care. Just as every strong house begins with a firm foundation, so too does every lasting relationship and every faithful act of service. It is our joy to build with excellence, guided by the wisdom and strength of the Chief Stone Himself.</p>
                 </div>
                 <figure>
                   <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />
@@ -40,11 +40,11 @@ const About = () => {
                 <div>
                   <h3>What's in it for me?</h3>
                   <ul>
-                    <li><i className="fa-solid fa-circle-dot" /> High performing, low carbon concrete solution</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Value for workers' skills</li>
+                    <li><i className="fa-solid fa-circle-dot" /> High performing workers</li>
+                    <li><i className="fa-solid fa-circle-dot" /> Dedication to client satisfaction</li>
                     <li><i className="fa-solid fa-circle-dot" /> Excellent standards in construction</li>
-                    <li><i className="fa-solid fa-circle-dot" /> An inclusive industry</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Don't take our word for it</li>
+                    <li><i className="fa-solid fa-circle-dot" /> Effective Communication & Planning</li>
+                    <li><i className="fa-solid fa-circle-dot" /> Reliability</li>
                   </ul>
                 </div>
                 <figure>
@@ -65,7 +65,7 @@ const About = () => {
           <figure>
             <img src="/images/heading-icon.png" alt="Heading Icon" />
           </figure>
-          <span>Plan + Control</span>
+          <span>Plans -&gt; Execution</span>
           <h2>How it Works</h2>
         </div>
         <div className="container">
@@ -80,8 +80,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   1.
                 </div>
-                <h3>Phase Plan</h3>
-                <p>This step connects the design process and its miles tones with construction.</p>
+                <h3>Consultation</h3>
+                <p>This step connects your project ideas with our construction expert.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -89,8 +89,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   2.
                 </div>
-                <h3>Design Pull Plan</h3>
-                <p>We work with the design team to establish a detailed plan for reaching our goals.</p>
+                <h3>Design Full Plan</h3>
+                <p>We work with you to establish a detailed plan for reaching our goals.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -98,8 +98,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   3.
                 </div>
-                <h3>Coordinated Layout</h3>
-                <p>This process creates a single point of truth: drawings all project.</p>
+                <h3>Coordinated Timeline</h3>
+                <p>This process creates a start point for each trade and their timeline coordinations for the whole project.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -108,7 +108,7 @@ const About = () => {
                   4.
                 </div>
                 <h3>Quality Control</h3>
-                <p>Having geometry worked out in the Layout step, prior to construction.</p>
+                <p>Ensuring the best materials are used and deliveries come undamaged, we will ensure each part of the project is done with the best care. Then we finish the project with a walk through and approval from the owners.</p>
               </div>
             </div>
           </div>
@@ -133,19 +133,19 @@ const About = () => {
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p>Labor expenses are a common target for cost reduction measures in the construction industry</p>
+                    <p>Coordination with key parties involved throughout the entire process from start to finish.</p>
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p> A good material management system includes proper communication, scheduling,  and tracking tools.</p>
+                    <p> A good material management system, proper communication, and scheduling.</p>
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p>Faster supplies can be used upon delivery to a construction site, the better.</p>
+                    <p>Faster material deliveries and start dates.</p>
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p>Effective material management systems not only ensure that materials are in the right place</p>
+                    <p>Excellent quality</p>
                   </li>
                 </ul>
               </div>

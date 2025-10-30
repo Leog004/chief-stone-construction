@@ -7,16 +7,16 @@
             "title": "Professional Experience"
         },
         {
-            "value": "300",
-            "label": "People",
+            "value": "37",
+            "label": "Families & Clients",
             "plus": false,
-            "title": "Employees in team"
+            "title": "Served"
         },
         {
-            "value": "21",
-            "label": "Locations",
+            "value": "13",
+            "label": "States",
             "plus": false,
-            "title": "Sites in development"
+            "title": "Work Performed"
         }
     ]
 }
