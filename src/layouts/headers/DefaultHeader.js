@@ -262,7 +262,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         )}
                         {contactButton != 1 && (
-                          <a href="tel:+405-388-1577" className="theme-btn">
+                          <a href="tel:+1(405)388-1577" className="theme-btn">
                             +405-388-1577
                             <i>
                               <svg
@@ -373,20 +373,19 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           </div>
 
           <div className="mobile-nav desktop-menu">
-            <h2>
-              From Foundations to Finishing Touches, We Build With Purpose.
-            </h2>
+            <h2>Let’s Build Something That Lasts</h2>
             <p className="des">
-              No matter the size of the project, we bring dependable
-              craftsmanship, long-term guarantees, and forward-thinking
-              solutions to every job.
+              At Chief Stone Construction, we believe every home and business
+              deserves exceptional craftsmanship, honest communication, and a
+              contractor you can trust. We’d be honored to help bring your
+              vision to life.
             </p>
 
             <figure>
               <img src="/img/project1.jpeg" alt="image" />
             </figure>
 
-            <h3>Get in touch</h3>
+            <h3>Schedule Your Consultaion</h3>
             <p className="num">
               {" "}
               <a
@@ -394,10 +393,10 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
               >
-                (+1) 405-388-1577
+                +1(405)388-1577
               </a>
             </p>
-            <p className="adrs">1601 Whispering Creek Dr, Edmond, OK 73013</p>
+            <p className="adrs">11125 SE 49th St Oklahoma City, OK 73150</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (

@@ -1,11 +1,11 @@
 {
-  "subtitle": "OUR OWNERS",
+  "subtitle": "OUR OWNER",
   "title": "Invested in Your Success",
   "items": [
     {
-      "image": "/img/team-1.jpg",
+      "image": "/img/team-1.2.jpg",
       "name": "Caleb Toney",
-      "role": "President, Company CEO",
+      "role": "Founder",
       "tel": "(405) 388-1577",
       "email": "caleb@chiefstoneco.com",
       "social": [
@@ -13,11 +13,6 @@
           "link": "https://facebook.com/",
           "icon": "fa-brands fa-facebook-f",
           "title": "Facebook"
-        },
-        {
-          "link": "https://twitter.com/",
-          "icon": "fa-brands fa-twitter",
-          "title": "Twitter"
         }
       ],
       "link": "/team/team-1"
