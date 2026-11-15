@@ -443,3 +443,203 @@
   .renovation .bbtn a.renovation-consultation-button { transition: none; }
   .renovation .renovation-consultation-button .circle-layer { animation: none; }
 }
+
+.home-consultation { background: #f3f0ea; }
+.home-consultation .consultation { margin-top: 0; }
+.home-consultation .home-consultation-intro h2 {
+  font-size: clamp(30px, 3.2vw, 44px);
+  line-height: 1.2;
+  margin-block: 12px 24px;
+}
+.home-consultation .home-consultation-intro p + p { margin-top: 18px; }
+
+/* Use the requested face when installed; add a licensed webfont source for all visitors. */
+@font-face {
+  font-family: 'Industry Inc. Base';
+  src: local('Industry Inc Base'), local('Industry Inc. Base'), local('IndustryInc-Base');
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+/* Homepage header over the opening image. */
+.header-style-one.home-header {
+  position: absolute;
+  background: transparent;
+}
+.home-header > .container { max-width: 1600px; }
+.home-header .desktop-nav > .container { max-width: none; }
+.home-header .desktop-nav { background: transparent; }
+.home-header .desktop-nav,
+.home-header .desktop-nav.slideUp,
+.home-header .desktop-nav.slideDown {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  animation: none;
+  background: transparent;
+  padding: 18px 0;
+}
+.home-header .header-main-row { gap: 24px; }
+.home-header .header-logo { flex: 0 0 auto; }
+.home-header .header-logo img { width: 150px; max-width: 100%; height: auto; }
+.home-header .nav-bar { flex-shrink: 0; }
+.home-header .nav-bar > ul > li:not(:last-child) { margin-right: 24px; }
+.consultation-primary.home-hero-cta {
+  max-width: 100%;
+  min-height: 64px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: transparent;
+  color: #fff;
+  font-family: 'Industry Inc. Base', Impact, 'Arial Narrow', sans-serif;
+  font-size: clamp(20px, 2.2vw, 28px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .035em;
+  line-height: 1.25;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .5);
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+}
+.consultation-primary.home-hero-cta:hover,
+.consultation-primary.home-hero-cta:focus-visible,
+.consultation-primary.home-hero-cta:active {
+  background: #ba8558;
+  border-color: #ba8558;
+  color: #191919;
+  text-shadow: none;
+}
+.consultation-primary.home-hero-cta:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+@media (prefers-reduced-motion: reduce) {
+  .consultation-primary.home-hero-cta { transition: none; }
+}
+/* Still-image hero: original vector branding over the construction photograph. */
+.home-image-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: calc(var(--home-header-height, 120px) + 48px) 7vw 64px;
+  background: #38291c;
+  overflow: hidden;
+}
+.home-image-background,
+.home-image-shade { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+.home-image-background { object-fit: cover; object-position: 65% center; }
+.home-image-shade {
+  background: linear-gradient(90deg, rgba(25, 16, 8, .48), transparent 70%), linear-gradient(180deg, rgba(10, 9, 7, .62), transparent 42%);
+  pointer-events: none;
+}
+.home-image-content { width: min(52%, 800px); color: #fff9ec; }
+.home-build-serve {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+  color: inherit;
+}
+.home-build-serve-words {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(64px, 8.1vw, 150px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -.035em;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff9ec;
+}
+.home-serve-row { display: flex; align-items: center; gap: clamp(12px, 1.5vw, 28px); }
+.home-original-symbol { width: clamp(52px, 6.4vw, 116px); height: auto; flex-shrink: 0; }
+.home-purpose-tagline {
+  margin: 24px 0 34px;
+  color: inherit;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(20px, 2vw, 34px);
+  font-style: italic;
+  line-height: 1.4;
+}
+.home-image-content .home-hero-cta { padding: 20px 28px; text-align: center; }
+@media (max-width: 991px) {
+  .home-image-hero { padding-inline: 6vw; }
+  .home-image-content { width: 64%; }
+  .home-build-serve-words { font-size: clamp(64px, 10vw, 100px); }
+  .home-image-shade { background: linear-gradient(90deg, rgba(20, 14, 9, .75), rgba(20, 14, 9, .15)), linear-gradient(180deg, rgba(10, 9, 7, .6), transparent 50%); }
+}
+@media (max-width: 575px) {
+  .home-image-hero { align-items: flex-end; padding: calc(var(--home-header-height, 100px) + 80px) 24px 48px; }
+  .home-image-background { object-position: 70% center; }
+  .home-image-shade { background: linear-gradient(180deg, rgba(15, 11, 8, .7), rgba(15, 11, 8, .15) 35%, rgba(15, 11, 8, .85) 85%); }
+  .home-image-content { width: 100%; max-width: 440px; }
+  .home-build-serve-words { font-size: clamp(46px, 13.5vw, 74px); -webkit-text-stroke-width: 1.5px; }
+  .home-original-symbol { width: clamp(44px, 12vw, 65px); }
+  .home-purpose-tagline { font-size: 21px; margin: 20px 0 26px; }
+  .home-image-content .home-hero-cta { width: 100%; font-size: 20px; padding: 18px 14px; }
+}
+@media (forced-colors: active) {
+  .home-build-serve-words { color: CanvasText; -webkit-text-stroke: 0; }
+}
+
+/* Reference-inspired homepage masthead with the supplied, unaltered brand mark. */
+.home-header .header-main-row { flex-wrap: nowrap; gap: 24px; }
+.home-header > .container { width: 100%; max-width: 1760px; padding-inline: 4vw; }
+.home-header .header-logo { min-width: 0; }
+.home-header .home-brand { display: flex; align-items: center; gap: 18px; color: #fff9ec; }
+.home-header .header-logo .home-brand-mark { width: 76px; height: 76px; object-fit: contain; }
+.home-brand-name { display: flex; flex-direction: column; justify-content: center; padding-left: 18px; border-left: 1px solid #fff9ec; white-space: nowrap; }
+.home-brand-name strong { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(24px, 2.2vw, 38px); font-weight: 700; line-height: 1.15; text-transform: uppercase; }
+.home-brand-name > span { display: flex; align-items: center; gap: 9px; margin-top: 5px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(12px, 1vw, 17px); line-height: 1.3; letter-spacing: .22em; text-transform: uppercase; }
+.home-brand-name > span::before { content: ''; width: 28px; height: 1px; background: currentColor; }
+.home-header .nav-bar { display: flex; align-items: center; gap: clamp(18px, 2.5vw, 48px); }
+.home-header .nav-bar > ul { margin: 0; padding: 0; gap: clamp(14px, 2vw, 32px); }
+.home-header .nav-bar > ul > li:not(:last-child) { margin-right: 0; }
+.home-header .nav-bar > ul > li > a,
+.home-header-consultation {
+  font-family: 'Industry Inc. Base', 'Arial Narrow', Impact, sans-serif;
+  font-size: clamp(16px, 1.25vw, 21px);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.home-header .nav-bar > ul > li:first-child > a { padding-bottom: 5px; border-bottom: 2px solid #fff9ec; }
+.home-header .extras .theme-color,
+.home-header .extras #desktop-menu { display: none; }
+.home-header .nav-bar .extras { margin-left: 0; }
+.home-header-consultation { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 12px 20px; border: 2px solid #fff9ec; background: transparent; color: #fff9ec; white-space: nowrap; transition: background .2s, color .2s; }
+.home-header-consultation:hover,
+.home-header-consultation:focus-visible { color: #191919; background: #ba8558; border-color: #ba8558; }
+.home-header-consultation:focus-visible,
+.home-brand:focus-visible { outline: 3px solid #fff9ec; outline-offset: 5px; }
+@media (max-width: 1399px) and (min-width: 1201px) {
+  .home-header .header-logo .home-brand-mark { width: 60px; height: 60px; }
+  .home-header .home-brand { gap: 12px; }
+  .home-brand-name { padding-left: 12px; }
+  .home-header-consultation { font-size: 15px; padding-inline: 12px; }
+}
+@media (max-width: 1200px) {
+  .home-header .nav-bar > ul { display: none; }
+  .home-header .extras #mobile-menu { display: flex; margin-left: 16px; }
+  .home-header .extras { flex-direction: row-reverse; }
+}
+@media (max-width: 767px) {
+  .home-header .home-header-consultation { display: none; }
+  .home-header .desktop-nav { padding-block: 14px; }
+  .home-header .header-logo .home-brand-mark { width: 52px; height: 52px; }
+  .home-header .home-brand { gap: 10px; }
+  .home-brand-name { padding-left: 10px; }
+  .home-brand-name strong { font-size: clamp(18px, 4.5vw, 26px); }
+  .home-brand-name > span { font-size: 10px; letter-spacing: .14em; gap: 6px; }
+  .home-brand-name > span::before { width: 16px; }
+  .home-header .header-main-row { gap: 8px; }
+  .home-header .extras #mobile-menu { margin: 0; }
+  .home-header .nav-bar .extras .menu-start svg { width: 40px; height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) { .home-header-consultation { transition: none; } }
+.home-header > .container > .row,
+.home-header .desktop-nav > .container > .row { margin-inline: 0; }
+.home-header .desktop-nav > .container,
+.home-header .desktop-nav .col-lg-12 { padding-inline: 0; }
+.home-header .nav-bar .extras .menu-start svg { margin-right: 0; }

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import appData from '@data/app.json';
 import { submitLead } from '@library/consultation-submit';
 import { services, finishes, priorities, timelines, budgets, initialValues, validateStep, projectSummary } from '@data/consultation';
@@ -9,6 +9,8 @@ function track(event, step) {
   window.dispatchEvent(new CustomEvent('consultation:analytics', { detail: { event, step: step + 1 } }));
 }
 export default function ConsultationForm({ onBusyChange } = {}) {
+  const instanceId = useId();
+  const idPrefix = `consultation-${instanceId.replace(/:/g, '')}`;
   const [values, setValues] = useState(initialValues);
   const [step, setStep] = useState(0);
   const [errors, setErrors] = useState({});
@@ -35,7 +37,7 @@ export default function ConsultationForm({ onBusyChange } = {}) {
     const first = Object.keys(nextErrors)[0];
     if (first) {
       track('validation_error', current);
-      requestAnimationFrame(() => document.getElementById(`consultation-${first}`)?.focus());
+      requestAnimationFrame(() => document.getElementById(`${idPrefix}-${first}`)?.focus());
       return false;
     }
     return true;
@@ -67,17 +69,17 @@ export default function ConsultationForm({ onBusyChange } = {}) {
   }
   function field({ id, label, type = 'text', options, required = false, value, onChange, hint, ...props }) {
     const error = errors[id];
-    const inputProps = { id: `consultation-${id}`, name: id, value: value ?? values[id], onChange: onChange || (event => update(id, event.target.value)), required, 'aria-invalid': error ? true : undefined, 'aria-describedby': `${hint ? `consultation-${id}-hint ` : ''}${error ? `consultation-${id}-error` : ''}`.trim() || undefined, ...props };
+    const inputProps = { id: `${idPrefix}-${id}`, name: id, value: value ?? values[id], onChange: onChange || (event => update(id, event.target.value)), required, 'aria-invalid': error ? true : undefined, 'aria-describedby': `${hint ? `${idPrefix}-${id}-hint ` : ''}${error ? `${idPrefix}-${id}-error` : ''}`.trim() || undefined, ...props };
     return <div className="consultation-field" key={id}>
       <label htmlFor={inputProps.id}>{label} <small>({required ? 'required' : 'optional'})</small></label>
       {options ? <select {...inputProps}><option value="">Choose an option</option>{options.map(option => <option key={option}>{option}</option>)}</select> : type === 'textarea' ? <textarea {...inputProps} rows={4} /> : <input {...inputProps} type={type} />}
-      {hint && <p className="consultation-help" id={`consultation-${id}-hint`}>{hint}</p>}
-      {error && <p className="consultation-error" id={`consultation-${id}-error`}>{error}</p>}
+      {hint && <p className="consultation-help" id={`${idPrefix}-${id}-hint`}>{hint}</p>}
+      {error && <p className="consultation-error" id={`${idPrefix}-${id}-error`}>{error}</p>}
     </div>;
   }
-  if (status === 'success') return <section className="consultation consultation-success" aria-labelledby="consultation-success">
+  if (status === 'success') return <section className="consultation consultation-success" aria-labelledby={`${idPrefix}-success`}>
     <p className="consultation-eyebrow">Request received</p>
-    <h2 id="consultation-success" tabIndex={-1} ref={heading}>Let’s talk about your project.</h2>
+    <h2 id={`${idPrefix}-success`} tabIndex={-1} ref={heading}>Let’s talk about your project.</h2>
     <p>Thank you, {values.name.trim()}. Chief Stone Construction will follow up by {values.contact === 'Email' ? 'email' : 'phone'} to discuss your project and arrange the next step.</p>
     <p>Your consultation is requested, but an appointment has not been booked. We’ll confirm availability and timing with you directly.</p>
     <a className="consultation-secondary" href="/projects">Explore our projects</a>
@@ -92,11 +94,11 @@ export default function ConsultationForm({ onBusyChange } = {}) {
           <p>Choose all that apply. We’ll ask only about the services you select.</p>
           <fieldset className="consultation-services"><legend className="consultation-sr-only">Services (required)</legend>
             {services.map((service, index) => <label key={service.id} className={`consultation-service ${values.services.includes(service.id) ? 'is-selected' : ''}`}>
-              <input id={index === 0 ? 'consultation-services' : `service-${service.id}`} type="checkbox" checked={values.services.includes(service.id)} aria-describedby={errors.services ? 'services-error' : undefined} onChange={event => update('services', event.target.checked ? [...values.services, service.id] : values.services.filter(id => id !== service.id))} />
+              <input id={index === 0 ? `${idPrefix}-services` : `${idPrefix}-service-${service.id}`} type="checkbox" checked={values.services.includes(service.id)} aria-describedby={errors.services ? `${idPrefix}-services-error` : undefined} onChange={event => update('services', event.target.checked ? [...values.services, service.id] : values.services.filter(id => id !== service.id))} />
               <i className={`fa-solid ${service.icon}`} aria-hidden="true" /><span>{service.label}</span>
             </label>)}
           </fieldset>
-          {errors.services && <p className="consultation-error" id="services-error" role="alert">{errors.services}</p>}
+          {errors.services && <p className="consultation-error" id={`${idPrefix}-services-error`} role="alert">{errors.services}</p>}
         </>}
         {step === 1 && <>
           <p>Estimates are fine. Leave measurements blank if you don’t know them—we can help during your consultation.</p>
@@ -127,7 +129,7 @@ export default function ConsultationForm({ onBusyChange } = {}) {
           <details className="consultation-review"><summary>Review your project details</summary><pre>{projectSummary(values)}</pre><button type="button" className="consultation-secondary" onClick={() => go(0)}>Edit project details</button></details>
           <p className="consultation-help">By submitting, you’re asking Chief Stone Construction to contact you about this project. This is a free consultation request, not a booking or a construction quote.</p>
         </>}
-        <div className="consultation-honeypot" aria-hidden="true"><label htmlFor="consultation-website">Leave this empty</label><input id="consultation-website" name="_gotcha" value={values.website} onChange={event => update('website', event.target.value)} tabIndex={-1} autoComplete="off" /></div>
+        <div className="consultation-honeypot" aria-hidden="true"><label htmlFor={`${idPrefix}-website`}>Leave this empty</label><input id={`${idPrefix}-website`} name="_gotcha" value={values.website} onChange={event => update('website', event.target.value)} tabIndex={-1} autoComplete="off" /></div>
         <div className="consultation-actions">
           {step > 0 && <button className="consultation-secondary" type="button" onClick={() => go(step - 1)}>Back</button>}
           <button className="consultation-primary" type="submit">{status === 'sending' ? 'Sending your request…' : step === 3 ? 'Request my free consultation' : 'Continue'}<i className="fa-solid fa-arrow-right" aria-hidden="true" /></button>

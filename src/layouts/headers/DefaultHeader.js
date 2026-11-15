@@ -1,13 +1,32 @@
 import { ConsultationLink } from "@components/ConsultationModal";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import appData from "@data/app.json";
 import { useLocalStorage } from "@common/useLocalStorage";
 
-const DefaultHeader = ({ contactButton, cartButton }) => {
+const DefaultHeader = ({ contactButton, cartButton, homeHeader }) => {
+  const headerRef = useRef(null);
+  useEffect(() => {
+    if (!homeHeader || !headerRef.current) return;
+    const root = document.documentElement;
+    const previous = root.style.getPropertyValue('--home-header-height');
+    const measure = () => root.style.setProperty('--home-header-height', `${headerRef.current.getBoundingClientRect().height}px`);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(headerRef.current);
+    return () => {
+      observer.disconnect();
+      if (previous) root.style.setProperty('--home-header-height', previous);
+      else root.style.removeProperty('--home-header-height');
+    };
+  }, [homeHeader]);
   const navItems = [];
 
-  appData.header.menu.forEach((item, index) => {
+  const headerMenu = homeHeader
+    ? ['Home', 'Services', 'Projects', 'About', 'Contact'].map(label =>
+        appData.header.menu.find(item => item.label === label) || { label, link: '/services', children: [] })
+    : appData.header.menu;
+  headerMenu.forEach((item, index) => {
     let s_class1 = "";
 
     if (item.children != 0) {
@@ -69,22 +88,24 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
   }, []);
 
   return (
-    <header className="header-style-one">
+    <header ref={headerRef} className={`header-style-one${homeHeader ? " home-header" : ""}`}>
       <div className="container">
         <div className="row">
           <div className="desktop-nav" id="stickyHeader">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="d-flex-all justify-content-between">
+                  <div className="d-flex-all justify-content-between header-main-row">
                     <div className="header-logo">
-                      <Link href="/">
-                        <figure>
-                          <img
-                            src={appData.header.logo.image}
-                            alt={appData.header.logo.alt}
-                          />
-                        </figure>
+                      <Link href="/" className={homeHeader ? 'home-brand' : undefined} aria-label={homeHeader ? 'Chief Stone Construction home' : undefined}>
+                        {homeHeader ? (
+                          <>
+                            <img className="home-brand-mark" src="/img/Untitled_Artwork%204.png" alt="" width="950" height="820" />
+                            <span className="home-brand-name"><strong>Chief Stone</strong><span>Construction</span></span>
+                          </>
+                        ) : (
+                          <figure><img src={appData.header.logo.image} alt={appData.header.logo.alt} /></figure>
+                        )}
                       </Link>
                     </div>
                     <div className="nav-bar">
@@ -262,7 +283,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                             </div>
                           </>
                         )}
-                        {contactButton != 1 && (
+                        {!homeHeader && contactButton != 1 && (
                           <a href="tel:+1(405)388-1577" className="theme-btn">
                             +405-388-1577
                             <i>
@@ -299,9 +320,9 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                             </i>
                           </a>
                         )}
-                        {contactButton == 1 && (
-                          <ConsultationLink className="theme-btn simple">
-                            Get a Quote
+                        {(homeHeader || contactButton == 1) && (
+                          <ConsultationLink className={homeHeader ? "home-header-consultation" : "theme-btn simple"}>
+                            {homeHeader ? "Request a consultation" : "Get a Quote"}
                           </ConsultationLink>
                         )}
                       </div>

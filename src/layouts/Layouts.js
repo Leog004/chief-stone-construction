@@ -11,6 +11,7 @@ const Layouts = ({
   footer,
   noHeader,
   noFooter,
+  homeHeader,
   contactButton,
   cartButton
 }) => {
@@ -31,6 +32,7 @@ const Layouts = ({
       {!noHeader && (
         <Header
           header={header}
+          homeHeader={homeHeader}
           contactButton={contactButton}
           cartButton={cartButton}
         />
