@@ -1,6 +1,7 @@
 ---
 #preview
 title: Fence Replacement
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/fencing/project-4/IMG_0384.jpeg
 short: "This fencing project gave the client's yard a major visual and functional boost. We removed the old, weathered fence and installed a clean, durable new privacy fence using high-quality wood."
 category: fencing

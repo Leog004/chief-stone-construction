@@ -1,3 +1,4 @@
+import appData from "@data/app.json";
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 import Accordion from "react-bootstrap/Accordion";
@@ -123,8 +124,8 @@ const Contact = () => {
                       </g>{" "}
                     </svg>
                     <div>
-                      <h3>Business Address:</h3>
-                      <p>11125 SE 49th St. Oklahoma City, OK 73150 </p>
+                      <h3>Service Area:</h3>
+                      <p>{appData.footer.info.serviceArea}</p>
                     </div>
                   </li>
                   <li>

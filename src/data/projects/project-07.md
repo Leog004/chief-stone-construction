@@ -1,6 +1,7 @@
 ---
 #preview
 title: Complete Residential Roof and Gutter Replacement 
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/roofing/project-1/dji_fly_20240801_124846_642_1722535153759_photo.jpeg
 short: "This project involved a full tear-off and reinstallation of a residential roofing system, gutters, and new french drains."
 location: "OKC, OK"

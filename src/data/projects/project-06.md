@@ -1,6 +1,7 @@
 ---
 #preview
 title: Commercial Fence Installation with Double Gate Access
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/fencing/project-2/01973d7c-db38-7ee7-bd86-cd99e0e0ab12.jpeg
 short: "Fencing solution for a commercial property, including custom gate installation and a durable framing system built to withstand high traffic and heavy-duty use."
 location: ""

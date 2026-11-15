@@ -1,6 +1,7 @@
 ---
 #preview
 title: Pre-Designed Bathroom Renovation
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-9/IMG_0810.jpeg
 short: "This complete bathroom renovation turned a dated layout into a sleek, modern retreat. Featuring an architects personal design for his home where every element was upgraded for elegance, durability, and comfort."
 location: "Edmond, OK"

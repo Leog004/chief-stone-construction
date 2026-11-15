@@ -6,7 +6,7 @@ import { getSortedProjectsData } from "@library/projects";
 
 import About3Section from "@components/sections/About3";
 import CallToActionSection from "@components/sections/CallToAction";
-import ContactFormSection from "@components/sections/ContactForm";
+import RenovationSection from "@components/sections/Renovation";
 import Hero3Section from "@components/sections/Hero3";
 
 const Projects2Slider = dynamic(() => import("@components/sliders/Projects2"), {
@@ -22,7 +22,7 @@ const Home3 = (props) => {
         <About3Section />
         {/* <CallToActionSection /> */}
         <Projects2Slider projects={props.projects} />
-        <ContactFormSection />
+        <RenovationSection />
       </>
     </Layouts>
     </ConsultationModalProvider>

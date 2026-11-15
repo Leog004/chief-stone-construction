@@ -396,3 +396,50 @@
   .consultation-modal .consultation-modal-body { padding: 16px 12px max(24px, env(safe-area-inset-bottom)); }
   .consultation-modal .consultation { padding: 16px; }
 }
+
+/* The entire renovation circle is one generous click/tap target. */
+.renovation .bbtn a.renovation-consultation-button {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(148px, 18vw, 187px);
+  height: clamp(148px, 18vw, 187px);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .18);
+  cursor: pointer;
+  isolation: isolate;
+  transition: background-color .2s ease, box-shadow .2s ease;
+  touch-action: manipulation;
+}
+.renovation .renovation-consultation-button .circle-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.renovation .bbtn a.renovation-consultation-button i {
+  pointer-events: none;
+  font-size: 32px;
+  color: #fff;
+}
+.renovation .bbtn a.renovation-consultation-button:hover,
+.renovation .bbtn a.renovation-consultation-button:focus-visible {
+  background-color: #895a34;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, .35);
+}
+.renovation .bbtn a.renovation-consultation-button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 6px;
+}
+.renovation .bbtn a.renovation-consultation-button:active {
+  background-color: #654025;
+}
+@media (prefers-reduced-motion: reduce) {
+  .renovation .bbtn a.renovation-consultation-button { transition: none; }
+  .renovation .renovation-consultation-button .circle-layer { animation: none; }
+}

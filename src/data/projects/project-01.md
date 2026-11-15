@@ -1,6 +1,7 @@
 ---
 #preview
 title: Luxury Bathroom Remodel
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-1/IMG_6500.jpeg
 short: Complete transformation from the ground up. Using top of the line waterproofing systems, timeless materials, heated floors, culminating a classic elegance in this full transformation.  .
 category: home-improvement

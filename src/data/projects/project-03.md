@@ -1,6 +1,7 @@
 ---
 #preview
 title: Siding Replacement
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-4/dji_fly_20250701_092230_706_1751379796043_photo.jpeg
 short: "Siding replacement to due to significant warping and heat related damage the siding endured. Quick planning, top-of-the-line materials, smooth installation. ."
 location: "Edmomnd, OK"

@@ -1,6 +1,7 @@
 ---
 #preview
 title: Crumbl Cookie Buildout
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/general-contracting/project-1/IMG_0076.jpeg
 short: "From blueprint to incredible cookies, we led the complete build out effort for this Crumbl Cookie location. Our team managed every phase—from permitting and interior framing to final inspections—ensuring brand standards, quality craftsmanship, and launch."
 location: "OKC, OK"

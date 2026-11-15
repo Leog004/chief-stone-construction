@@ -264,27 +264,7 @@ const ProjectDetail = (props) => {
                   </>
                 )}
 
-                {/* Details */}
-                {typeof postData.details != "undefined" && (
-                  <div className="row space">
-                    {postData.details.items.map((item, key) => (
-                      <div
-                        key={`details-item-${key}`}
-                        className="col-lg-6 col-md-6 col-sm-12"
-                      >
-                        <div className="project-d-detail">
-                          <div className="data">
-                            <h3>{item.label}</h3>
-                            <p>{item.value}</p>
-                          </div>
-                          <div className="d-flex-all icon">
-                            <img src={item.icon} alt={item.alt} />
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
+
               </div>
             </div>
           </div>

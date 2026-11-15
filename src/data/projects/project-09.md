@@ -1,6 +1,7 @@
 ---
 #preview
 title: Residential Addition
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-5/IMG_0128.jpeg
 short: "This old residential patio entry was converted to a living space before the new homeowners moved in. But we came together to transform this dated and deteriorating conversion into a structurally sound and visually refined space."
 dates: "n/a"

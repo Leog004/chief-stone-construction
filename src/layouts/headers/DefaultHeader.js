@@ -397,7 +397,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                 +1(405)388-1577
               </a>
             </p>
-            <p className="adrs">11125 SE 49th St Oklahoma City, OK 73150</p>
+            <p className="adrs"><strong>Service Area</strong><br />{appData.footer.info.serviceArea}</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (
