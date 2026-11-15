@@ -1,3 +1,4 @@
+import { ConsultationLink } from "@components/ConsultationModal";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import appData from "@data/app.json";
@@ -299,9 +300,9 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </a>
                         )}
                         {contactButton == 1 && (
-                          <Link href="/contact" className="theme-btn simple">
+                          <ConsultationLink className="theme-btn simple">
                             Get a Quote
-                          </Link>
+                          </ConsultationLink>
                         )}
                       </div>
                     </div>

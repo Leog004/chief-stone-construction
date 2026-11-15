@@ -1,3 +1,4 @@
+import ConsultationModalProvider from "@components/ConsultationModal";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
@@ -14,6 +15,7 @@ const Projects2Slider = dynamic(() => import("@components/sliders/Projects2"), {
 
 const Home3 = (props) => {
   return (
+    <ConsultationModalProvider>
     <Layouts>
       <>
         <Hero3Section />
@@ -23,6 +25,7 @@ const Home3 = (props) => {
         <ContactFormSection />
       </>
     </Layouts>
+    </ConsultationModalProvider>
   );
 };
 export default Home3;

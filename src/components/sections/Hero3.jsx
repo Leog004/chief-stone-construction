@@ -1,3 +1,4 @@
+import { ConsultationLink } from "@components/ConsultationModal";
 import Data from "@data/sections/hero-3.json";
 
 const Hero3Section = () => {
@@ -23,6 +24,7 @@ const Hero3Section = () => {
                             <p>
                                 {Data.description}
                             </p>
+                            <ConsultationLink className="consultation-primary consultation-hero-cta">Request a free consultation <i className="fa-solid fa-arrow-right" aria-hidden="true" /></ConsultationLink>
                         </div>
                     </div>
                 </div>

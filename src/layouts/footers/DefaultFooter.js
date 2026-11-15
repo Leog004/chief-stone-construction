@@ -1,3 +1,4 @@
+import { ConsultationLink } from "@components/ConsultationModal";
 import Link from "next/link";
 import appData from "@data/app.json";
 
@@ -16,9 +17,9 @@ const DefaultFooter = () => {
                 <div className="contact-info d-flex-all">
                     <p>A Healthy Home Begins With A Firm Foundation.</p>
                 </div>
-                <Link href="/contact" className="theme-btn">
+                <ConsultationLink className="theme-btn">
                     Get a Consultation <i className="fa-solid fa-angles-right" />
-                </Link>
+                </ConsultationLink>
             </div>
             </div>
         </div>
