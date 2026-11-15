@@ -1,0 +1,151 @@
+/* Keep the contact FAQs in normal flow now that the map is removed. */
+.contact-faqs {
+  padding: 0 0 clamp(48px, 6vw, 88px);
+}
+.contact-faqs .heading {
+  padding-inline: 20px;
+}
+.contact-faqs .heading h2 {
+  width: 100%;
+  max-width: 700px;
+  margin-inline: auto;
+}
+.contact-faqs .acc2 {
+  margin-bottom: 0;
+  padding: 0;
+}
+.contact-faqs .acc2 .accordion-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.contact-faqs .acc2 .accordion-item button {
+  height: auto;
+  min-height: 64px;
+  padding: 20px 60px 20px 24px;
+  line-height: 1.5;
+  white-space: normal;
+}
+.contact-faqs .acc2 .accordion-item h2:before,
+.contact-faqs .acc2 .accordion-item button:before {
+  display: none;
+}
+.contact-faqs .acc2 .accordion-body {
+  padding: 20px 24px;
+}
+.contact-faqs .acc2 .accordion-button:focus-visible {
+  outline: 3px solid #9b741f;
+  outline-offset: -3px;
+}
+.contact-form-2 .info ul.contact li > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.contact-form-2 .info ul.contact li svg {
+  flex-shrink: 0;
+}
+.contact-form-2 .info a {
+  color: inherit;
+}
+.contact-form-2 form input,
+.contact-form-2 form textarea {
+  font-size: 16px;
+  max-width: 100%;
+}
+/* Footer content wraps instead of squeezing or overflowing. */
+.footer-style-one .footer-first {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.footer-style-one .footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+.footer-style-one .footer-first .contact-info {
+  flex: 1 1 220px;
+  text-align: center;
+}
+.footer-style-one .footer-first .theme-btn {
+  margin-right: 32px;
+}
+.footer-style-one .footer-p-2 {
+  padding-block: clamp(40px, 6vw, 72px);
+}
+.footer-style-one .footer-p-2 > .container > .row {
+  row-gap: 32px;
+}
+.footer-style-one .footer-p-2 .footer-col p {
+  width: 100%;
+  max-width: 48ch;
+  margin-top: 0;
+  overflow-wrap: anywhere;
+}
+.footer-style-one .footer-p-2 .footer-col ul li {
+  align-items: flex-start;
+  gap: 16px;
+}
+.footer-style-one .footer-p-2 .footer-col ul li svg {
+  flex: 0 0 20px;
+  margin-top: 4px;
+}
+.footer-style-one .footer-p-2 .footer-col ul li p {
+  width: auto;
+  min-width: 0;
+  margin: 0;
+}
+.footer-style-one .footer-p-3.rights .footer-col {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .contact-form-2 {
+    padding-block: 48px;
+  }
+  .contact-form-2 .data h2 {
+    font-size: clamp(28px, 7vw, 38px);
+  }
+  .contact-form-2 .bio {
+    padding: 32px 0;
+  }
+  .contact-form-2 .info {
+    padding: 24px 20px;
+    border-radius: 8px;
+  }
+  .contact-form-2 form .theme-btn,
+  .footer-style-one .footer-first .theme-btn {
+    width: 100%;
+    margin-right: 0;
+    justify-content: center;
+    min-height: 48px;
+    padding: 16px 44px 16px 20px;
+  }
+  .contact-form-2 form .theme-btn:after,
+  .footer-style-one .footer-first .theme-btn:after {
+    display: none;
+  }
+  .contact-faqs .acc2 .accordion-item button {
+    font-size: 16px;
+    padding-left: 18px;
+  }
+  .contact-faqs .acc2 .accordion-body {
+    padding: 18px;
+  }
+  .footer-style-one .footer-first {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .footer-style-one .footer-first .contact-info {
+    flex: none;
+    margin: 0;
+  }
+  .footer-style-one .footer-first .footer-logo {
+    margin: 0;
+  }
+  .footer-style-one .footer-p-3.rights .footer-col {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
