@@ -1,0 +1,9 @@
+{
+  "boards": [
+    { "id": "interiors", "title": "Spaces to come home to", "description": "Bathrooms, renovations, and thoughtful interior details.", "categories": ["home-improvement"] },
+    { "id": "outdoors", "title": "Beyond the back door", "description": "Fences, gates, and inspiration for outdoor spaces.", "categories": ["fencing"] },
+    { "id": "exteriors", "title": "Built for the elements", "description": "Roofing and exterior project inspiration.", "categories": ["roofing"] },
+    { "id": "commercial", "title": "Made for business", "description": "A closer look at commercial spaces and build-outs.", "categories": ["general-contracting"] }
+  ],
+  "videos": []
+}

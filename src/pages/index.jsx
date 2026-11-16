@@ -1,17 +1,12 @@
 import ConsultationModalProvider from "@components/ConsultationModal";
 import Layouts from "@layouts/Layouts";
-import dynamic from "next/dynamic";
 
-import { getSortedProjectsData } from "@library/projects";
 
-import About3Section from "@components/sections/About3";
+import BehindTheBuildPreview from "@components/sections/BehindTheBuildPreview";
+import { getBehindTheBuildData } from "@library/behind-the-build";
 import ConsultationForm from "@components/ConsultationForm";
 import RenovationSection from "@components/sections/Renovation";
 import Hero3Section from "@components/sections/Hero3";
-
-const Projects2Slider = dynamic(() => import("@components/sliders/Projects2"), {
-  ssr: false,
-});
 
 const Home3 = (props) => {
   return (
@@ -36,8 +31,7 @@ const Home3 = (props) => {
             </div>
           </div>
         </section>
-        <About3Section />
-        <Projects2Slider projects={props.projects} />
+        <BehindTheBuildPreview {...props.buildPreview} />
         <RenovationSection />
       </>
     </Layouts>
@@ -47,11 +41,18 @@ const Home3 = (props) => {
 export default Home3;
 
 export async function getStaticProps() {
-  const allProjects = getSortedProjectsData();
+  const journal = getBehindTheBuildData();
+  const featuredIds = ['project-01', 'project-04', 'project-10', 'project-05'];
+  const featured = featuredIds.map(id => journal.series.find(item => item.id === id)).filter(Boolean);
+  const buildPreview = {
+    series: featured.length ? featured : journal.series.slice(0, 4),
+    totalPhotos: journal.posts.filter(post => post.type === 'image').length,
+    totalSeries: journal.series.length,
+  };
 
   return {
     props: {
-      projects: allProjects,
+      buildPreview,
     },
   };
 }

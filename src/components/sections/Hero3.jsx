@@ -4,7 +4,7 @@ const Hero3Section = () => (
   <section className="home-image-hero" aria-labelledby="home-hero-title">
     <img
       className="home-image-background"
-      src="/img/home-construction-background.png"
+      src="/img/home-construction-background-clean.png"
       alt=""
       fetchPriority="high"
       decoding="async"
@@ -23,7 +23,7 @@ const Hero3Section = () => (
       </h1>
       <p className="home-purpose-tagline">Built with purpose. Driven by service.</p>
       <ConsultationLink className="consultation-primary home-hero-cta">
-        Request a free consultation
+        LET’S BUILD TOGETHER
       </ConsultationLink>
     </div>
   </section>
