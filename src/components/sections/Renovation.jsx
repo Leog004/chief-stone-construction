@@ -1,5 +1,5 @@
 import Data from "@data/sections/renovation.json";
-import Link from "next/link";
+import { ConsultationLink } from "@components/ConsultationModal";
 
 const RenovationSection = () => {
   const styles = {
@@ -18,12 +18,11 @@ const RenovationSection = () => {
                 <h2>{Data.title}</h2>
                 <p>{Data.description}</p>
                 <div className="bbtn">
-                <figure>
-                    <img className="w-auto circle-layer" src={Data.image_circle_text.url} alt={Data.image_circle_text.alt} />
-                </figure>
-                <Link href={Data.link}>
-                    <i className="fa-solid fa-arrow-up-long"></i>
-                </Link>
+                <ConsultationLink className="renovation-consultation-button">
+                    <img className="circle-layer" src={Data.image_circle_text.url} alt="" aria-hidden="true" />
+                    <i className="fa-solid fa-arrow-up-long" aria-hidden="true"></i>
+                    <span className="consultation-sr-only">Request a free consultation</span>
+                </ConsultationLink>
                 </div>
             </div>
             </div>

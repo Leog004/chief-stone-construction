@@ -1,6 +1,7 @@
 ---
 #preview
 title: Full Residential Renovation
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-2/IMG_7492.jpeg
 short: "This renovation project transformed this old hot tub room into a warm, polished interior space."
 location: "OKC, OK"

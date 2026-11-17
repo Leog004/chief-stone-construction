@@ -40,21 +40,12 @@ const Projects2Slider = ({ projects }) => {
                 <div className="proj-data">
                   <h3>{item.title}</h3>
                   <p>{item.short}</p>
-                  {(item.location || item.dates) && (
+                  {item.state && (
                     <div className="loc-date">
-                      {item.location && (
-                        <div>
-                          <span>LOCATION:</span>
-                          <span>{item.location}</span>
-                        </div>
-                      )}
-
-                      {item.location && (
-                        <div>
-                          <span>DATE:</span>
-                          <span>{item.dates}</span>
-                        </div>
-                      )}
+                      <div>
+                        <span>LOCATION:</span>
+                        <span>{item.state}</span>
+                      </div>
                     </div>
                   )}
                 </div>

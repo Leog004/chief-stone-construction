@@ -10,7 +10,6 @@ import 'react-modal-video/css/modal-video.css';
 import { getSortedServicesData } from "@library/services";
 
 import CallToActionSection from "@components/sections/CallToAction";
-import ServicesSection from "@components/sections/Services";
 import CountersSection from "@components/sections/Counters";
 
 const Services = (props) => {
@@ -18,9 +17,16 @@ const Services = (props) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner spacious pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
 
-      <ServicesSection />
+      <video
+        className="d-block w-100"
+        src="/videos/services-hero.mp4"
+        aria-label="Chief Stone Construction services"
+        autoPlay
+        muted
+        playsInline
+      />
 
       {/* Construction Services Start */}
       <section className="gap no-top construction-services">

@@ -10,21 +10,16 @@ social:
     title: Facebook
     color: "#1874ec"
 
-  - link: https://twitter.com/
-    icon: fa-brands fa-twitter
-    title: Twitter
-    color: "#1f9cea"
-
 #full details
 fax: (+235) 50 318 47 07
 info:
   - label: Location
     value: New York, United State
-  
+
   - label: Experience
     value: 2 Years in the construction industry.
 
-projects: 
+projects:
   - project-04
   - project-02
   - project-03

@@ -23,35 +23,23 @@
         "children": []
       },
       {
-        "label": "About",
-        "link": "/about",
-        "children": [
-          {
-            "label": "About Company",
-            "link": "/about",
-            "children": 0
-          },
-          {
-            "label": "Core Values",
-            "link": "/core-values",
-            "children": 0
-          },
-          {
-            "label": "Leadership",
-            "link": "/leadership",
-            "children": 0
-          },
-          {
-            "label": "History",
-            "link": "/history",
-            "children": 0
-          }
-        ]
+        "label": "Services",
+        "link": "/services",
+        "children": []
       },
-
       {
         "label": "Projects",
         "link": "/projects",
+        "children": []
+      },
+      {
+        "label": "Behind the Build",
+        "link": "/behind-the-build",
+        "children": []
+      },
+      {
+        "label": "About",
+        "link": "/about",
         "children": []
       },
       {
@@ -67,15 +55,15 @@
       "alt": "logo"
     },
     "info": {
-      "address": "11125 SE 49th St. Oklahoma City, OK 73150",
-      "tel": "405-388-1577",
+      "serviceArea": "Servicing All of Oklahoma and Surrounding States",
+      "tel": "(405) 388-1577",
       "email": "caleb@chiefstoneco.com"
     },
-    "copy": "Chief Stone Construction <i class='fa-solid fa-heart'></i> © 2025 All rights reserved"
+    "copy": "Chief Stone Construction <i class='fa-solid fa-heart'></i> \u00a9 2025 All rights reserved"
   },
   "social": [
     {
-      "link": "https://facebook.com",
+      "link": "https://www.facebook.com/share/1CgeUqgWvX/?mibextid=wwXIfr",
       "title": "Facebook"
     },
     {

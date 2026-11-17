@@ -1,6 +1,7 @@
 ---
 #preview
 title: Whole-Home Renovation
+state: "Oklahoma"
 image: /images/caleb-upload-image-here/home-improvement/project-3/IMG_4936.jpeg
 short: "This project brought new life to a historic home, combining interior and exterior remodeling with fresh landscaping for a fully transformed living experience. "
 location: "Guthrie, Oklohoma"

@@ -32,6 +32,7 @@ const Portfolio = (props) => {
   return (
     <Layouts>
       <PageBanner
+        spacious
         pageTitle={"Our Projects"}
         pageDesc={"Built on Trust. Grounded in Stone."}
       />

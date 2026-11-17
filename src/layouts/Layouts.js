@@ -7,34 +7,26 @@ import Preloader from "./Preloader";
 
 const Layouts = ({
   children,
-  header,
   footer,
   noHeader,
-  noFooter,
-  contactButton,
-  cartButton
+  noFooter
 }) => {
   useEffect(() => {
-    scrollAnimation();
+    const cleanupScroll = scrollAnimation();
 
     // preloader
     if (typeof window !== 'undefined') {
       const loader = document.getElementsByClassName('preloader');
       if (loader[0]) loader[0].classList.add('loaded');
     }
+    return cleanupScroll;
   }, []);
 
   return (
     <>
       <Preloader />
 
-      {!noHeader && (
-        <Header
-          header={header}
-          contactButton={contactButton}
-          cartButton={cartButton}
-        />
-      )}
+      {!noHeader && <Header />}
 
       {children}
       
