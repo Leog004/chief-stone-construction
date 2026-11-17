@@ -488,7 +488,7 @@
 .consultation-primary.home-hero-cta {
   max-width: 100%;
   min-height: 64px;
-  border: 2px solid #fff;
+  border: 2px solid #fff9ec;
   border-radius: 2px;
   background: transparent;
   color: #fff;
@@ -505,7 +505,7 @@
 .consultation-primary.home-hero-cta:focus-visible,
 .consultation-primary.home-hero-cta:active {
   background: #ba8558;
-  border-color: #ba8558;
+  border-color: #fff9ec;
   color: #191919;
   text-shadow: none;
 }
@@ -513,7 +513,7 @@
 @media (prefers-reduced-motion: reduce) {
   .consultation-primary.home-hero-cta { transition: none; }
 }
-/* Still-image hero: original vector branding over the construction photograph. */
+/* Original vector branding over the construction video. */
 .home-image-hero {
   position: relative;
   isolation: isolate;
@@ -522,14 +522,36 @@
   min-height: 100vh;
   min-height: 100svh;
   padding: calc(var(--home-header-height, 120px) + 48px) 7vw 64px;
-  background: #38291c;
+  background: #111111;
   overflow: hidden;
 }
-.home-image-background,
-.home-image-shade { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
-.home-image-background { object-fit: cover; object-position: 65% center; }
+.home-hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  container-type: size;
+}
+.home-image-background {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 76%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+}
+/* Match the clip's baked-in edge after object-fit scales it to cover. */
 .home-image-shade {
-  background: linear-gradient(90deg, rgba(25, 16, 8, .48), transparent 70%), linear-gradient(180deg, rgba(10, 9, 7, .62), transparent 42%);
+  --hero-video-edge: max(28%, 65cqh);
+  --hero-fade-width: min(15vw, 170px);
+  --hero-horizontal-shade: linear-gradient(
+    to left,
+    transparent calc(var(--hero-video-edge) - var(--hero-fade-width)),
+    rgba(17, 17, 17, .55) calc(var(--hero-video-edge) - var(--hero-fade-width) / 2),
+    #111111 var(--hero-video-edge)
+  );
+  position: absolute;
+  inset: 0;
+  background: var(--hero-horizontal-shade), rgba(0, 0, 0, .14);
   pointer-events: none;
 }
 .home-image-content { width: min(52%, 800px); color: #fff9ec; }
@@ -567,12 +589,8 @@
   .home-image-hero { padding-inline: 6vw; }
   .home-image-content { width: 64%; }
   .home-build-serve-words { font-size: clamp(64px, 10vw, 100px); }
-  .home-image-shade { background: linear-gradient(90deg, rgba(20, 14, 9, .75), rgba(20, 14, 9, .15)), linear-gradient(180deg, rgba(10, 9, 7, .6), transparent 50%); }
 }
 @media (max-width: 575px) {
-  .home-image-hero { align-items: flex-end; padding: calc(var(--home-header-height, 100px) + 80px) 24px 48px; }
-  .home-image-background { object-position: 70% center; }
-  .home-image-shade { background: linear-gradient(180deg, rgba(15, 11, 8, .7), rgba(15, 11, 8, .15) 35%, rgba(15, 11, 8, .85) 85%); }
   .home-image-content { width: 100%; max-width: 440px; }
   .home-build-serve-words { font-size: clamp(46px, 13.5vw, 74px); -webkit-text-stroke-width: 1.5px; }
   .home-original-symbol { width: clamp(44px, 12vw, 65px); }
@@ -644,10 +662,6 @@
 .home-header .desktop-nav .col-lg-12 { padding-inline: 0; }
 .home-header .nav-bar .extras .menu-start svg { margin-right: 0; }
 
-/* Keep the entire photograph visible at its natural aspect ratio. */
-.home-image-hero { display: grid; min-height: 0; padding: 0; }
-.home-image-background { position: relative; grid-area: 1 / 1; align-self: start; display: block; width: 100%; height: auto; object-fit: contain; object-position: center; }
-.home-image-content { grid-area: 1 / 1; align-self: center; width: 52%; margin: calc(var(--home-header-height, 112px) + 24px) 0 48px 7vw; }
 .home-brand-name > span::before,
 .home-brand-name > span::after { content: ''; flex: 1 0 16px; width: 28px; height: 1px; background: currentColor; }
 .home-navigation { position: relative; flex: 0 0 auto; margin-left: auto; }
@@ -666,10 +680,25 @@
 .home-navigation-panel li ul a { font-size: 13px; font-weight: 400; }
 .home-header .home-navigation-panel .home-header-consultation { display: flex; margin-top: 18px; font-size: 15px; white-space: normal; text-align: center; }
 @media (max-width: 991px) {
-  .home-image-hero { display: block; }
-  .home-image-background { padding-top: var(--home-header-height, 100px); }
-  .home-image-content { position: relative; width: auto; max-width: 600px; margin: 0; padding: 28px 6vw 40px; }
-  .home-image-shade { background: linear-gradient(180deg, rgba(15,11,8,.15), transparent 40%, #38291c 75%); }
+  .home-image-hero {
+    display: block;
+    min-height: 0;
+    padding: var(--home-header-height, 100px) 0 0;
+  }
+  .home-hero-media {
+    position: relative;
+    height: clamp(260px, 59vw, 520px);
+  }
+  .home-image-background { width: 100%; object-position: right 45%; }
+  .home-image-shade {
+    --hero-video-edge: max(36.5%, 65cqh);
+    --hero-fade-width: clamp(60px, 16vw, 125px);
+    background:
+      linear-gradient(to top, #111111, rgba(17, 17, 17, .35) 23%, transparent 52%),
+      var(--hero-horizontal-shade),
+      rgba(0, 0, 0, .14);
+  }
+  .home-image-content { width: auto; max-width: 600px; padding: 28px 6vw 40px; }
 }
 @media (max-width: 575px) {
   .home-header .header-main-row { gap: 8px; }
