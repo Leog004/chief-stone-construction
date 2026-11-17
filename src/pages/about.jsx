@@ -17,7 +17,7 @@ const About = () => {
     <Layouts>
       <ImageView />
       <main className="about-combined">
-      <PageBanner pageTitle={"About Us"} pageDesc={"Our story, our values, and the people behind the work."} />
+      <PageBanner spacious pageTitle={"About Us"} pageDesc={"Our story, our values, and the people behind the work."} />
       
 
       <nav className="about-section-nav container" aria-label="On this page">

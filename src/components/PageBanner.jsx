@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from "next/link";
 import appData from "@data/app.json";
 
-const PageBanner = ({ pageTitle, pageDesc }) => {
+const PageBanner = ({ pageTitle, pageDesc, spacious }) => {
   const styles = {
     "parallax": {
       "backgroundImage": "url(/images/pattren-3.png)"
@@ -15,7 +15,7 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
       <Head>
         <title>{headTitle}</title>
       </Head>
-      <section className="banner-style-one">
+      <section className={spacious ? "banner-style-one banner-spacious" : "banner-style-one"}>
         <div className="parallax" style={styles.parallax} />
 
         <div className="container">

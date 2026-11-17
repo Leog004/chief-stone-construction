@@ -17,7 +17,7 @@ const Services = (props) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner spacious pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
 
       <video
         className="d-block w-100"

@@ -41,6 +41,7 @@ const Contact = () => {
   return (
     <Layouts>
       <PageBanner
+        spacious
         pageTitle={"Free Consultation"}
         pageDesc={"Your Vision Starts Here"}
       />
